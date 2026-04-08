@@ -250,7 +250,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "power_module.kicad_pro",
+    "filename": "iot_device_pcb.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -410,20 +410,8 @@
   },
   "sheets": [
     [
-      "627249d6-45bb-424c-8b1d-f92ab2304d60",
+      "20a6db8f-6f9d-426b-a90e-3cd30ac36ee8",
       "Root"
-    ],
-    [
-      "9a558070-5212-48a5-9d39-e8336448e6a2",
-      "Microntroller"
-    ],
-    [
-      "7a5c37e3-8127-4421-ba30-2a5d7fa2d36c",
-      "Sensor_module"
-    ],
-    [
-      "4592785f-0907-4b67-91e8-31489a1579ff",
-      "Actuator_module"
     ]
   ],
   "text_variables": {}
