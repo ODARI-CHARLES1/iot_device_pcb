@@ -5169,15 +5169,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 238.76 36.83 90)
+		(at 251.46 64.77 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0bab1907-4ff9-4eb9-89b3-2d4da410f288")
+		(uuid "0c4e2eb6-b6d0-4d2c-8d98-8c9a9ad5013e")
 		(property "Reference" "R7"
-			(at 237.49 34.798 90)
+			(at 250.19 69.088 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5185,7 +5185,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 240.792 34.798 90)
+			(at 250.19 59.944 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5193,7 +5193,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 238.76 38.608 90)
+			(at 253.238 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5201,8 +5201,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 238.76 36.83 0)
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
+			(at 251.46 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5210,8 +5210,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 238.76 36.83 0)
+		(property "Description" "Thick Film Resistors - SMD 1watt 10Kohms 1%"
+			(at 251.46 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CRCW121810K0FKEK"
+			(at 251.46 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part_number" "Vishay"
+			(at 251.46 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/Vishay/CRCW121810K0FKEK?qs=Ss1Lzmtc12UYWftF3%2F783w%3D%3D"
+			(at 251.46 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW121810K0FKEK/28261299"
+			(at 251.46 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2144629"
+			(at 251.46 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5220,10 +5265,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "eed963a1-baae-45d1-b9d6-bf86d5b90425")
+			(uuid "1375293f-9023-4304-b155-dd56de14a50a")
 		)
 		(pin "2"
-			(uuid "407c23b8-4099-4753-9380-aaf3736d034a")
+			(uuid "9d803fb9-9b02-4a1a-83a7-fdac38fc5676")
 		)
 		(instances
 			(project "iot_device_pcb"
@@ -5765,7 +5810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/268/22090a-52174.pdf"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/282/1/MCP73871_Data_Sheet_DS20002090F.pdf"
 			(at 215.9 66.04 0)
 			(effects
 				(font
@@ -5774,7 +5819,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single cell, Li-Ion/Li-Po charge management controller"
+		(property "Description" "Battery Management USB/AC Battery Charger w/Pwr Mgmt"
+			(at 212.09 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 212.09 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part_number" "MCP73871-4CAI/ML"
+			(at 212.09 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/Microchip-Technology/MCP73871-4CAI-ML?qs=wd5RIQLrsJhjE3Ap5xbBog%3D%3D"
+			(at 212.09 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/microchip-technology/MCP73871-4CAI-ML/7928182?s=N4IgTCBcDaILIGEAKB2AzADhQRgLQBYEBBASQHo4AZEAXQF8g"
+			(at 212.09 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C637761"
 			(at 212.09 52.07 0)
 			(effects
 				(font
@@ -7142,6 +7232,118 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 242.57 64.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57239e5d-92db-40f7-8a0f-6643777d4aef")
+		(property "Reference" "R6"
+			(at 241.3 69.088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 241.3 59.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 244.348 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
+			(at 242.57 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 1watt 10Kohms 1%"
+			(at 242.57 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CRCW121810K0FKEK"
+			(at 242.57 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part_number" "Vishay"
+			(at 242.57 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/Vishay/CRCW121810K0FKEK?qs=Ss1Lzmtc12UYWftF3%2F783w%3D%3D"
+			(at 242.57 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW121810K0FKEK/28261299"
+			(at 242.57 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2144629"
+			(at 242.57 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f71b8465-692a-41af-890f-4f210d4a49e7")
+		)
+		(pin "2"
+			(uuid "27b1ecc1-dc11-4677-af88-026190bebf93")
+		)
+		(instances
+			(project "iot_device_pcb"
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 60.96 50.8 0)
 		(unit 1)
@@ -7318,73 +7520,6 @@
 			(project "iot_device_pcb"
 				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8"
 					(reference "LED4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 242.57 64.77 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "63442476-fe00-43ee-989a-e4c37ae1bdc0")
-		(property "Reference" "R5"
-			(at 240.538 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 240.538 62.738 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 244.348 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 242.57 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0864e77e-b5b7-40cc-9a83-6cf8a05d685d")
-		)
-		(pin "2"
-			(uuid "4a071e2e-e95b-41a7-9807-3acd57b238b7")
-		)
-		(instances
-			(project "iot_device_pcb"
-				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8443,73 +8578,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 251.46 64.77 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9fdadb4b-c9cd-414a-b5bf-f6c7ee0353f9")
-		(property "Reference" "R6"
-			(at 249.428 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 249.428 62.738 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 253.238 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 251.46 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 251.46 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e17416bc-a90d-440a-a9c1-bd846df7de37")
-		)
-		(pin "2"
-			(uuid "566ba075-12cc-4c78-aaf3-da885b460c2a")
-		)
-		(instances
-			(project "iot_device_pcb"
-				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 52.07 63.5 180)
 		(unit 1)
@@ -8815,7 +8883,7 @@
 		(dnp no)
 		(uuid "d3f3208d-49a9-4895-8916-e0a1c1b6d3c6")
 		(property "Reference" "R8"
-			(at 236.982 39.878 90)
+			(at 234.442 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8823,7 +8891,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 240.03 39.878 90)
+			(at 243.586 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8839,7 +8907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
 			(at 238.76 41.91 0)
 			(effects
 				(font
@@ -8848,8 +8916,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Thick Film Resistors - SMD 1watt 10Kohms 1%"
 			(at 238.76 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CRCW121810K0FKEK"
+			(at 238.76 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part_number" "Vishay"
+			(at 238.76 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/Vishay/CRCW121810K0FKEK?qs=Ss1Lzmtc12UYWftF3%2F783w%3D%3D"
+			(at 238.76 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW121810K0FKEK/28261299"
+			(at 238.76 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2144629"
+			(at 238.76 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8867,6 +8980,118 @@
 			(project "iot_device_pcb"
 				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 238.76 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d715809d-c55b-436b-a0f2-147012f16cfb")
+		(property "Reference" "R5"
+			(at 234.442 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 243.586 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 238.76 38.608 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?20035"
+			(at 238.76 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 1watt 10Kohms 1%"
+			(at 238.76 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CRCW121810K0FKEK"
+			(at 238.76 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part_number" "Vishay"
+			(at 238.76 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/Vishay/CRCW121810K0FKEK?qs=Ss1Lzmtc12UYWftF3%2F783w%3D%3D"
+			(at 238.76 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW121810K0FKEK/28261299"
+			(at 238.76 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2144629"
+			(at 238.76 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de554fb5-cb82-4668-8684-469a3b748921")
+		)
+		(pin "2"
+			(uuid "a57948be-9967-469e-b77d-780e48aeba62")
+		)
+		(instances
+			(project "iot_device_pcb"
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8"
+					(reference "R5")
 					(unit 1)
 				)
 			)
