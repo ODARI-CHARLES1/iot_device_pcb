@@ -623,618 +623,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "2025-07-01_05-12-42:LTST-C170KGKT"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 5.08 -4.445 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "LTST-C170KGKT"
-				(at 5.08 -7.62 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "LED_LTST-C170KGKT_LTO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "LTST-C170KGKT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LTST-C170KGKT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED_LTST-C170KGKT_LTO"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LTST-C170KGKT_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.4798 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.175 0) (xy 3.81 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 1.905) (xy 3.81 -1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -1.905) (xy 6.35 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 3.175) (xy 6.35 4.445)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 4.445) (xy 6.985 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 0) (xy 3.81 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -1.905) (xy 6.35 1.905)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 3.81) (xy 8.255 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 2.54) (xy 8.255 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 8.255 4.445)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 4.445) (xy 8.255 5.08)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.255 3.81) (xy 8.89 3.175)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 3.175) (xy 10.16 4.445)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 4.445) (xy 10.16 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 4.445) (xy 9.525 4.445)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 3.81) (xy 10.16 4.445)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LTST-C170KGKT_1_2"
-				(polyline
-					(pts
-						(xy -5.08 8.255) (xy -5.08 7.62)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 7.62) (xy -4.445 8.255)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 10.16) (xy -4.445 9.525)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 9.525) (xy -3.81 10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 8.255) (xy -5.08 8.255)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 6.35) (xy -3.81 6.985)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 10.16) (xy -4.445 10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 8.255) (xy -3.175 8.89)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 6.985) (xy -5.08 8.255)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 8.89) (xy -4.445 10.16)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 5.08) (xy -4.445 6.35)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 6.985) (xy -3.81 8.255)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 3.81) (xy 1.905 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 6.35) (xy -1.905 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 6.35) (xy 0 7.62)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.175) (xy 0 3.81)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 3.4798)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 6.35) (xy -1.905 6.35)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 3.81) (xy 0 6.35)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "B2B-PH-K-S_LF__SN_:B2B-PH-K-S_LF__SN_"
 			(pin_names
 				(offset 1.016)
@@ -5961,77 +5349,6 @@
 		)
 	)
 	(symbol
-		(lib_id "2025-07-01_05-12-42:LTST-C170KGKT")
-		(at 160.02 77.47 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0d14c0d4-d361-42de-a671-042e1059017d")
-		(property "Reference" "LED1"
-			(at 158.496 83.312 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LTST-C170KGKT"
-			(at 178.308 40.894 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 160.02 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "LTST-C170KGKT"
-			(at 160.02 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4df5f1d4-784f-4b75-babb-68976acce9c4")
-		)
-		(pin "2"
-			(uuid "a1c607a3-62f8-4ff4-96b1-e53dcdc4082f")
-		)
-		(instances
-			(project "iot_device_pcb"
-				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8"
-					(reference "LED1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 54.61 69.85 0)
 		(unit 1)
@@ -6653,77 +5970,6 @@
 		)
 	)
 	(symbol
-		(lib_id "2025-07-01_05-12-42:LTST-C170KGKT")
-		(at 152.4 77.47 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "24561080-452f-4238-ae9c-0102703af5ee")
-		(property "Reference" "LED2"
-			(at 150.876 83.312 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LTST-C170KGKT"
-			(at 170.942 38.1 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 152.4 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "LTST-C170KGKT"
-			(at 152.4 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 152.4 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d11e4225-a7d5-40d9-a363-97699012e6c9")
-		)
-		(pin "2"
-			(uuid "c1dd0710-ee01-41e3-ae32-90c64a0a01c8")
-		)
-		(instances
-			(project "iot_device_pcb"
-				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8"
-					(reference "LED2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 238.76 46.99 270)
 		(unit 1)
@@ -6965,6 +6211,122 @@
 			(project "iot_device_pcb"
 				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2025-07-01_05-07-46:LTST-C170KRKT")
+		(at 167.64 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e480b56-0600-4300-9f8b-6e8751f5eef4")
+		(property "Reference" "LED3"
+			(at 166.37 83.82 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LTST-C170KRKT"
+			(at 186.436 45.72 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 167.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Lite-On-LTST-C170KRKT.pdf?_gl=1*167q3rv*_gcl_au*MTUyMjkzODE0NC4xNzY5NzExODA4LjEwMjI5NDkwOTcuMTc3NTkxMDE5Ny4xNzc1OTE0MDY5*_ga*OTA1MTIyOTQ3LjE3Njk3MTE4MTk.*_ga_15W4STQT4T*czE3NzU5MTAxMjEkbzI0JGcxJHQxNzc1OTE0MDgzJGo0NiRsMCRoMA.."
+			(at 167.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Colour LEDs Green Clear 571nm"
+			(at 167.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "LITEON"
+			(at 167.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part_number" "LTST-C170KRKT"
+			(at 167.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/LITEON/LTST-C170KGKT?qs=o1ACzGp%252Bek3F8d3sLmVFGg%3D%3D"
+			(at 167.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/liteon/LTST-C170KRKT/386779?s=N4IgTCBcDaIDIBUDKCC0BhAjAdgAwGkAlfBEAXQF8g"
+			(at 167.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C94868"
+			(at 167.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7bf60289-57a2-44a1-9761-3badae2aca5d")
+		)
+		(pin "1"
+			(uuid "cabdee44-6315-45c2-92ad-5fc87509e57f")
+		)
+		(instances
+			(project "iot_device_pcb"
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8"
+					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -7465,6 +6827,122 @@
 		)
 	)
 	(symbol
+		(lib_id "2025-07-01_05-07-46:LTST-C170KRKT")
+		(at 160.02 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "449e68d5-709e-4835-aab8-98ffe3f163e2")
+		(property "Reference" "LED1"
+			(at 158.496 83.566 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LTST-C170KGKT"
+			(at 178.308 40.894 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 160.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Lite-On-LTST-C170KGKT.pdf?_gl=1*x83qo3*_gcl_au*MTUyMjkzODE0NC4xNzY5NzExODA4LjEwMjI5NDkwOTcuMTc3NTkxMDE5Ny4xNzc1OTEzODUw*_ga*OTA1MTIyOTQ3LjE3Njk3MTE4MTk.*_ga_15W4STQT4T*czE3NzU5MTAxMjEkbzI0JGcxJHQxNzc1OTEzODU3JGo1MyRsMCRoMA.."
+			(at 160.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Colour LEDs Green Clear 571nm"
+			(at 160.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "LITEON"
+			(at 160.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part_number" "LTST-C170KGKT"
+			(at 160.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/LITEON/LTST-C170KGKT?qs=o1ACzGp%252Bek3F8d3sLmVFGg%3D%3D"
+			(at 160.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/liteon/LTST-C170KGKT/386777?s=N4IgTCBcDaIDIBUDKCC0BhAjAdgAwGkBxfBEAXQF8g"
+			(at 160.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C98221"
+			(at 160.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b9e7c345-12f0-42ee-9cb9-cf28d47bb3d5")
+		)
+		(pin "1"
+			(uuid "32791736-6c50-4202-996d-c8a4e38f8248")
+		)
+		(instances
+			(project "iot_device_pcb"
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 189.23 81.28 270)
 		(unit 1)
@@ -7766,7 +7244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "LTST-C170KRKT"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Lite-On-LTST-C170KRKT.pdf?_gl=1*167q3rv*_gcl_au*MTUyMjkzODE0NC4xNzY5NzExODA4LjEwMjI5NDkwOTcuMTc3NTkxMDE5Ny4xNzc1OTE0MDY5*_ga*OTA1MTIyOTQ3LjE3Njk3MTE4MTk.*_ga_15W4STQT4T*czE3NzU5MTAxMjEkbzI0JGcxJHQxNzc1OTE0MDgzJGo0NiRsMCRoMA.."
 			(at 39.37 179.07 0)
 			(effects
 				(font
@@ -7776,7 +7254,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single Colour LEDs Green Clear 571nm"
+			(at 39.37 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "LITEON"
+			(at 39.37 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part_number" "LTST-C170KRKT"
+			(at 39.37 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/LITEON/LTST-C170KGKT?qs=o1ACzGp%252Bek3F8d3sLmVFGg%3D%3D"
+			(at 39.37 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/liteon/LTST-C170KRKT/386779?s=N4IgTCBcDaIDIBUDKCC0BhAjAdgAwGkAlfBEAXQF8g"
+			(at 39.37 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C94868"
 			(at 39.37 179.07 0)
 			(effects
 				(font
@@ -8987,77 +8510,6 @@
 		)
 	)
 	(symbol
-		(lib_id "2025-07-01_05-07-46:LTST-C170KRKT")
-		(at 167.64 77.47 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ae0ee3cd-1d62-4593-8644-8646e89cd7df")
-		(property "Reference" "LED3"
-			(at 166.37 83.312 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LTST-C170KRKT"
-			(at 189.992 45.974 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 167.64 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "LTST-C170KRKT"
-			(at 167.64 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e4573a1b-dbe4-4cd1-a8be-024095b88978")
-		)
-		(pin "1"
-			(uuid "f705ff17-2df4-4f95-807c-edf52b4cbfe3")
-		)
-		(instances
-			(project "iot_device_pcb"
-				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8"
-					(reference "LED3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 52.07 63.5 180)
 		(unit 1)
@@ -9530,6 +8982,122 @@
 			(project ""
 				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2025-07-01_05-07-46:LTST-C170KRKT")
+		(at 152.4 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc488cf0-8518-4bee-9cc8-2ecf68dcc5cb")
+		(property "Reference" "LED2"
+			(at 150.876 83.566 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LTST-C170KGKT"
+			(at 170.942 37.338 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 152.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Lite-On-LTST-C170KGKT.pdf?_gl=1*x83qo3*_gcl_au*MTUyMjkzODE0NC4xNzY5NzExODA4LjEwMjI5NDkwOTcuMTc3NTkxMDE5Ny4xNzc1OTEzODUw*_ga*OTA1MTIyOTQ3LjE3Njk3MTE4MTk.*_ga_15W4STQT4T*czE3NzU5MTAxMjEkbzI0JGcxJHQxNzc1OTEzODU3JGo1MyRsMCRoMA.."
+			(at 152.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Colour LEDs Green Clear 571nm"
+			(at 152.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "LITEON"
+			(at 152.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part_number" "LTST-C170KGKT"
+			(at 152.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/LITEON/LTST-C170KGKT?qs=o1ACzGp%252Bek3F8d3sLmVFGg%3D%3D"
+			(at 152.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/liteon/LTST-C170KGKT/386777?s=N4IgTCBcDaIDIBUDKCC0BhAjAdgAwGkBxfBEAXQF8g"
+			(at 152.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C98221"
+			(at 152.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4df50286-1c73-4ce9-b105-7c7d2282edb7")
+		)
+		(pin "1"
+			(uuid "2fa2e7ed-1e0a-4849-8a06-22475174fb7f")
+		)
+		(instances
+			(project "iot_device_pcb"
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8"
+					(reference "LED2")
 					(unit 1)
 				)
 			)
