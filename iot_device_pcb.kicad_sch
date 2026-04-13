@@ -8544,7 +8544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://spicat.kyocera-avx.com/product/Mlcc/chartview/0805ZC104JAT2A/dist/mouser"
 			(at 212.09 86.36 0)
 			(effects
 				(font
@@ -8553,7 +8553,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT KGM21NR71A104JT NEW GLOBAL PN 10V 0.1uF A 581-KGM21NR71A104JT"
+			(at 212.09 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 212.09 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part_number" "0805ZC104JAT2A"
+			(at 212.09 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/KYOCERA-AVX/0805ZC104JAT2A?qs=Q5Oar%2FnnWZYq8DFSoLsWDw%3D%3D"
+			(at 212.09 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/kyocera-avx/KGM21NR71A104JT/3081414?s=N4IgTCBcDaIAwA44FYBaBhAjHALAKQEEAVMAkAXQF8g"
+			(at 212.09 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2174341"
 			(at 212.09 86.36 0)
 			(effects
 				(font
@@ -9945,6 +9990,48 @@
 				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8"
 					(reference "R11")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 112.395 116.84)
+		(size 42.545 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d76e5a61-e019-4441-8e0f-87cbb4ce42a5")
+		(property "Sheetname" "Microcontroller-ESP32-S3-WROOM-1"
+			(at 112.395 116.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontroller-ESP32-S3-WROOM-1.kicad_sch"
+			(at 112.395 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "iot_device_pcb"
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8"
+					(page "2")
 				)
 			)
 		)
