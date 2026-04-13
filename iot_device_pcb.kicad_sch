@@ -4039,6 +4039,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 120.65) (xy 160.02 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f13fcf-6a2a-42af-80e5-1705dd522daa")
+	)
+	(wire
+		(pts
 			(xy 49.53 179.07) (xy 54.61 179.07)
 		)
 		(stroke
@@ -4106,6 +4116,16 @@
 			(type default)
 		)
 		(uuid "222c3126-a806-49f9-9604-8594e8167815")
+	)
+	(wire
+		(pts
+			(xy 154.94 123.19) (xy 160.02 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "267ef95c-8942-48a5-b77f-acbc125e7c7e")
 	)
 	(wire
 		(pts
@@ -5146,6 +5166,30 @@
 			(justify left bottom)
 		)
 		(uuid "3403abff-c1d7-4d18-9bf8-1254b6b7ecc3")
+	)
+	(label "USBD-"
+		(at 160.02 123.19 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e250a64-b865-4240-ba5f-04d0b5bd5559")
+	)
+	(label "USBD-"
+		(at 160.02 120.65 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "51792f34-cdb5-4bd0-941c-98902dead5ca")
 	)
 	(label "USBD+"
 		(at 48.26 52.07 0)
@@ -10026,6 +10070,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "USBD+" bidirectional
+			(at 154.94 120.65 0)
+			(uuid "de2dee55-3670-4d86-a0e5-6280e964452f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBD-" bidirectional
+			(at 154.94 123.19 0)
+			(uuid "14f4d39b-2adb-4d96-94c0-50dff7b943aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
