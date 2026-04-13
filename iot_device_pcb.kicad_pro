@@ -412,6 +412,10 @@
     [
       "20a6db8f-6f9d-426b-a90e-3cd30ac36ee8",
       "Root"
+    ],
+    [
+      "d76e5a61-e019-4441-8e0f-87cbb4ce42a5",
+      "Microcontroller-ESP32-S3-WROOM-1"
     ]
   ],
   "text_variables": {}
