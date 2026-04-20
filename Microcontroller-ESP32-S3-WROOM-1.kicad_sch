@@ -4752,7 +4752,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "https://www.lcsc.com/search?q=VES4R7M1VTR-0405&s_z=n_q_VES4R7M1VTR-0405"
+		(property "LCSC" "C20136319"
 			(at 19.05 132.715 0)
 			(effects
 				(font
@@ -5019,7 +5019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_part_number" "RG0603Q-2212-D-T10"
+		(property "Manufacturer_part_number" "RG0603Q-4752-D-T10"
 			(at 19.05 149.86 0)
 			(effects
 				(font
@@ -5028,7 +5028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/Susumu/RG0603Q-2212-D-T10?qs=amGC7iS6iy8tfDEqHW4FPw%3D%3D"
+		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/Susumu/RG0603Q-4752-D-T10?qs=amGC7iS6iy%2FSgGA%2FUnp6Ag%3D%3D"
 			(at 19.05 149.86 0)
 			(effects
 				(font
@@ -5037,7 +5037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/susumu/RG0603Q-2212-D-T10/18103229?s=N4IgTCBcDaIEoHEAMA2JBmAigWjGAjGNgCLYAq%2BSIAugL5A"
+		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/susumu/RG0603Q-4752-D-T10/18103021?s=N4IgTCBcDaIEoHEAMA2JBmAigWgCwHYBWMbAEWwBUBGJEAXQF8g"
 			(at 19.05 149.86 0)
 			(effects
 				(font
@@ -5046,7 +5046,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "https://www.lcsc.com/search?q=VES4R7M1VTR-0405&s_z=n_q_VES4R7M1VTR-0405"
+		(property "LCSC" "C20136872"
 			(at 19.05 149.86 0)
 			(effects
 				(font
