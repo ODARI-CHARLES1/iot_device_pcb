@@ -3539,16 +3539,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 153.035) (xy 19.05 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "620ba09b-f8b1-4505-b6de-77b650958293")
-	)
-	(wire
-		(pts
 			(xy 218.44 99.06) (xy 223.52 99.06)
 		)
 		(stroke
@@ -3596,6 +3586,16 @@
 			(type default)
 		)
 		(uuid "67b234c7-219a-43cc-8f35-763daa3b4088")
+	)
+	(wire
+		(pts
+			(xy 19.05 141.605) (xy 19.05 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6913b028-ec70-4c6a-8273-87e5d5f9deb5")
 	)
 	(wire
 		(pts
@@ -3989,6 +3989,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.05 153.67) (xy 19.05 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc8a2423-f9df-4b7c-8d8d-4171b349afce")
+	)
+	(wire
+		(pts
 			(xy 82.55 168.91) (xy 86.36 168.91)
 		)
 		(stroke
@@ -4046,16 +4056,6 @@
 			(type default)
 		)
 		(uuid "f7442aaf-5949-4313-8d17-67e8dbff69e0")
-	)
-	(wire
-		(pts
-			(xy 19.05 141.605) (xy 19.05 145.415)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f808c3b0-fb90-4f9a-9513-a7be44006e65")
 	)
 	(label "USB_D-"
 		(at 47.625 146.05 0)
@@ -4689,7 +4689,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 17.272 132.715 90)
 			(effects
 				(font
@@ -4698,7 +4698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/826/1/n_catalog_partition01_en.pdf"
 			(at 19.05 132.715 0)
 			(effects
 				(font
@@ -4707,7 +4707,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Thin Film Resistors - SMD Thin Film Chip Resistors 0201 size, 0.063W, 22.1K ohm, 0.5%, 50ppm AEC Q200 Qualified Anti-sulfur"
+			(at 19.05 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 19.05 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part_number" "RG0603Q-2212-D-T10"
+			(at 19.05 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/Susumu/RG0603Q-2212-D-T10?qs=amGC7iS6iy8tfDEqHW4FPw%3D%3D"
+			(at 19.05 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/susumu/RG0603Q-2212-D-T10/18103229?s=N4IgTCBcDaIEoHEAMA2JBmAigWjGAjGNgCLYAq%2BSIAugL5A"
+			(at 19.05 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/search?q=VES4R7M1VTR-0405&s_z=n_q_VES4R7M1VTR-0405"
 			(at 19.05 132.715 0)
 			(effects
 				(font
@@ -4756,7 +4801,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 52.705 132.588 90)
 			(effects
 				(font
@@ -4765,7 +4810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/826/1/n_catalog_partition01_en.pdf"
 			(at 52.705 130.81 0)
 			(effects
 				(font
@@ -4774,8 +4819,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Thin Film Resistors - SMD Thin Film Chip Resistors 0201 size, 0.063W, 1K ohm, 0.1%, 25ppm AEC Q200 Qualified Anti-sulfur"
 			(at 52.705 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 52.705 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part_number" "RG0603P-102-B-T10"
+			(at 52.705 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/Susumu/RG0603P-102-B-T10?qs=amGC7iS6iy%2F0QPamw0jmkg%3D%3D"
+			(at 52.705 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/susumu/RG0603P-102-B-T10/18103206?s=N4IgTCBcDaIEoHEAMA2JBmACgWgIxLGwCFsAVfEAXQF8g"
+			(at 52.705 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20135023"
+			(at 52.705 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4860,6 +4950,121 @@
 			(project "iot_device_pcb"
 				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 19.05 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4da4c7c4-58f3-46de-9935-76be436e2298")
+		(property "Reference" "R16"
+			(at 21.59 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47K5"
+			(at 21.59 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 17.272 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/826/1/n_catalog_partition01_en.pdf"
+			(at 19.05 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thin Film Resistors - SMD Thin Film Chip Resistors 0201 size, 0.063W, 47.5K ohm, 0.5%, 50ppm AEC Q200 Qualified Anti-sulfur"
+			(at 19.05 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 19.05 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part_number" "RG0603Q-2212-D-T10"
+			(at 19.05 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/Susumu/RG0603Q-2212-D-T10?qs=amGC7iS6iy8tfDEqHW4FPw%3D%3D"
+			(at 19.05 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/susumu/RG0603Q-2212-D-T10/18103229?s=N4IgTCBcDaIEoHEAMA2JBmAigWjGAjGNgCLYAq%2BSIAugL5A"
+			(at 19.05 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/search?q=VES4R7M1VTR-0405&s_z=n_q_VES4R7M1VTR-0405"
+			(at 19.05 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c558eb55-6659-483e-91a0-be340d9d77f4")
+		)
+		(pin "1"
+			(uuid "41b9bc94-0d4e-4041-abd6-827dab34ef7b")
+		)
+		(instances
+			(project "iot_device_pcb"
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -5940,76 +6145,6 @@
 			(project "iot_device_pcb"
 				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 19.05 149.225 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d81f09c8-bdcc-4287-8a8e-ac654b682abc")
-		(property "Reference" "R13"
-			(at 21.59 147.9549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47K5"
-			(at 21.59 150.4949 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 17.272 149.225 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 19.05 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 19.05 149.225 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "571ac5da-3404-44a2-ab4e-1859689e133d")
-		)
-		(pin "1"
-			(uuid "54bf4b82-e45d-4e27-b63f-45b3063124c5")
-		)
-		(instances
-			(project "iot_device_pcb"
-				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5"
-					(reference "R13")
 					(unit 1)
 				)
 			)
