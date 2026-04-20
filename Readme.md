@@ -2,6 +2,10 @@
 
 An IoT device PCB designed for logging and transmitting data.
 
+## Schematic
+
+![Schematic](image/schematic_capture.png)
+
 ## Specifications
 
 - **Version:** V1.0.0
@@ -22,9 +26,7 @@ An IoT device PCB designed for logging and transmitting data.
 - LED status indicators
 - Compact design for IoT applications
 
-## Schematic
 
-![Schematic](image/schematic_capture.png)
 
 ## License
 
