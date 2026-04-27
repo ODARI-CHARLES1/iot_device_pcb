@@ -416,6 +416,18 @@
     [
       "d76e5a61-e019-4441-8e0f-87cbb4ce42a5",
       "Microcontroller-ESP32-S3-WROOM-1"
+    ],
+    [
+      "bd1ed058-0d95-47ef-a7d2-a0812ed5db5b",
+      "Sensors"
+    ],
+    [
+      "951efe5f-007f-4eb5-93e1-4bc9627e12c9",
+      "Actuators"
+    ],
+    [
+      "aa026ecb-1fa8-4122-9bb8-4aceed4f9045",
+      "Display"
     ]
   ],
   "text_variables": {}
