@@ -4,12 +4,12 @@ An IoT device PCB designed for logging and transmitting data.
 
 ## Schematic
 
-![Schematic](image/schematic_capture.png)
+![Schematic](image/schematic_capture_01.png)
 
 ## Specifications
 
 - **Version:** V1.0.0
-- **Date:** 2026-04-08
+- **Date:** 2026-04-27
 - **Company:** ODARI-DESIGNS
 
 ## Key Components
@@ -25,8 +25,6 @@ An IoT device PCB designed for logging and transmitting data.
 - Battery charging circuit (single-cell Li-Ion/Li-Po)
 - LED status indicators
 - Compact design for IoT applications
-
-
 
 ## License
 
