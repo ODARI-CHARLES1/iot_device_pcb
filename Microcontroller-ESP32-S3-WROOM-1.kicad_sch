@@ -5559,7 +5559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e2a7179-f2ae-46b0-bc7e-cf404ba65967")
-		(property "Reference" "Q1"
+		(property "Reference" "Q?"
 			(at 139.954 48.2599 0)
 			(effects
 				(font
@@ -5668,6 +5668,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5680,7 +5686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13e5004d-14f9-4a6a-ac55-de239c9c18f2")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR?"
 			(at 238.76 92.71 0)
 			(effects
 				(font
@@ -5734,6 +5740,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5746,7 +5758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19920221-3549-4712-a966-07b323496791")
-		(property "Reference" "C9"
+		(property "Reference" "C?"
 			(at 60.96 40.6399 0)
 			(effects
 				(font
@@ -5849,6 +5861,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -5861,7 +5879,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c3b87d7-8edb-4857-8088-9a0bbd280885")
-		(property "Reference" "C13"
+		(property "Reference" "C?"
 			(at 181.61 48.2599 0)
 			(effects
 				(font
@@ -5964,6 +5982,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6030,6 +6054,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6041,7 +6071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34e2005a-9361-424f-8c36-48f6dea4ef14")
-		(property "Reference" "LED6"
+		(property "Reference" "LED?"
 			(at 116.586 172.974 0)
 			(effects
 				(font
@@ -6146,6 +6176,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6158,7 +6194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b094024-e004-4577-ad06-de68a767e626")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR?"
 			(at 20.32 31.75 0)
 			(effects
 				(font
@@ -6212,6 +6248,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6223,7 +6265,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4515fd2a-97b5-415d-9458-f5766712671e")
-		(property "Reference" "R15"
+		(property "Reference" "R?"
 			(at 91.186 162.56 0)
 			(effects
 				(font
@@ -6326,6 +6368,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6338,7 +6386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "459e57f1-6f0f-40f0-a3dc-d33768004f50")
-		(property "Reference" "R13"
+		(property "Reference" "R?"
 			(at 21.59 131.4449 0)
 			(effects
 				(font
@@ -6441,6 +6489,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6453,7 +6507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49cb171b-5d77-4040-a6a3-81a2a06a1346")
-		(property "Reference" "C12"
+		(property "Reference" "C?"
 			(at 245.11 48.2599 0)
 			(effects
 				(font
@@ -6556,6 +6610,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6567,7 +6627,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4cef6dcb-e43c-48f9-943b-6d244aaaaacc")
-		(property "Reference" "R14"
+		(property "Reference" "R?"
 			(at 47.625 128.905 90)
 			(effects
 				(font
@@ -6668,6 +6728,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6681,7 +6747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d3661ed-f215-4608-b009-ed311c1b053b")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR?"
 			(at 53.975 181.61 0)
 			(effects
 				(font
@@ -6735,6 +6801,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6747,7 +6819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4da4c7c4-58f3-46de-9935-76be436e2298")
-		(property "Reference" "R16"
+		(property "Reference" "R?"
 			(at 21.59 148.5899 0)
 			(effects
 				(font
@@ -6850,6 +6922,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6916,6 +6994,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6928,7 +7012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "530b023e-fa2c-4b94-8e37-9591e7d04425")
-		(property "Reference" "U4"
+		(property "Reference" "U?"
 			(at 71.9933 181.61 0)
 			(effects
 				(font
@@ -7088,6 +7172,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7099,7 +7189,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58803cc5-2ee9-45f0-b51e-616f420bf6e9")
-		(property "Reference" "R18"
+		(property "Reference" "R?"
 			(at 125.222 31.242 90)
 			(effects
 				(font
@@ -7200,6 +7290,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7212,7 +7308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c32205c-4b59-4322-9d02-ea542dee5c1f")
-		(property "Reference" "S2"
+		(property "Reference" "S?"
 			(at 255.27 25.4 0)
 			(effects
 				(font
@@ -7320,6 +7416,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "S?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7331,7 +7433,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "645addda-1708-4f77-9649-6de894175857")
-		(property "Reference" "R17"
+		(property "Reference" "R?"
 			(at 125.984 52.07 90)
 			(effects
 				(font
@@ -7432,6 +7534,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7443,7 +7551,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7575f9aa-f5db-4c35-84d6-fe8b90a65405")
-		(property "Reference" "LED5"
+		(property "Reference" "LED?"
 			(at 117.856 165.354 0)
 			(effects
 				(font
@@ -7548,6 +7656,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "LED?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7560,7 +7674,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "820c20a9-df44-4b29-89e5-ea6aadf16a54")
-		(property "Reference" "U1"
+		(property "Reference" "U?"
 			(at 240.9033 91.44 0)
 			(effects
 				(font
@@ -7735,6 +7849,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7801,6 +7921,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7813,7 +7939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3418371-9d5b-4488-87df-9008bcfff071")
-		(property "Reference" "C5"
+		(property "Reference" "C?"
 			(at 24.13 40.6399 0)
 			(effects
 				(font
@@ -7916,6 +8042,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7928,7 +8060,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab460921-4f62-494d-8167-27757235ab06")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR?"
 			(at 33.02 172.72 0)
 			(effects
 				(font
@@ -7982,6 +8114,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7993,7 +8131,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b2e76693-fb0a-47e3-b995-c6cfd606d4f3")
-		(property "Reference" "R12"
+		(property "Reference" "R?"
 			(at 91.186 170.18 0)
 			(effects
 				(font
@@ -8096,6 +8234,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8158,6 +8302,12 @@
 		(instances
 			(project "iot_device_pcb"
 				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
 					(reference "#PWR?")
 					(unit 1)
 				)
@@ -8228,6 +8378,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8241,7 +8397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7e7bb01-a934-4627-8758-83448e27771c")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR?"
 			(at 69.85 191.135 0)
 			(effects
 				(font
@@ -8295,6 +8451,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8307,7 +8469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc5be9d3-34ec-4360-ba64-33d675610660")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR?"
 			(at 20.32 66.04 0)
 			(effects
 				(font
@@ -8361,6 +8523,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8372,7 +8540,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4d937c5-d371-4f77-b3cf-a260fdf9b843")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR?"
 			(at 119.38 163.83 0)
 			(effects
 				(font
@@ -8426,6 +8594,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8437,7 +8611,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c82a0a61-4d7f-41d2-85b7-b17909936f6b")
-		(property "Reference" "C11"
+		(property "Reference" "C?"
 			(at 64.77 108.585 90)
 			(effects
 				(font
@@ -8538,6 +8712,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8550,7 +8730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1653e01-7fd7-4f59-9473-2e30ab2a687c")
-		(property "Reference" "Q2"
+		(property "Reference" "Q?"
 			(at 139.7 31.7499 0)
 			(effects
 				(font
@@ -8659,6 +8839,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "Q?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8670,7 +8856,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d84db200-0e31-476d-8c80-51f60bd2ec0b")
-		(property "Reference" "D2"
+		(property "Reference" "D?"
 			(at 36.83 173.99 0)
 			(effects
 				(font
@@ -8788,6 +8974,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "D?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8799,7 +8991,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9eb81e3-60e5-4641-b9d6-a531c6788377")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR?"
 			(at 67.31 112.395 0)
 			(effects
 				(font
@@ -8853,6 +9045,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8864,7 +9062,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e31d5455-eb25-48cd-9209-e14eba10f3f9")
-		(property "Reference" "C10"
+		(property "Reference" "C?"
 			(at 57.658 117.094 90)
 			(effects
 				(font
@@ -8965,6 +9163,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8978,7 +9182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4313da0-0ef1-477d-bbf5-4f9c4060d6c1")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR?"
 			(at 36.195 130.81 0)
 			(effects
 				(font
@@ -9032,6 +9236,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9044,7 +9254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e635d2d3-f934-4b75-9065-3de6f42124c0")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR?"
 			(at 238.76 160.02 0)
 			(effects
 				(font
@@ -9098,6 +9308,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9109,7 +9325,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6b64d23-8076-48c5-94e0-477d5c71d005")
-		(property "Reference" "R19"
+		(property "Reference" "R?"
 			(at 233.172 25.908 90)
 			(effects
 				(font
@@ -9210,6 +9426,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "R?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9222,7 +9444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0f82a09-0d7b-4113-a47a-49d8415ecc0e")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR?"
 			(at 19.05 168.91 0)
 			(effects
 				(font
@@ -9276,6 +9498,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9288,7 +9516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3ddf061-1eb4-4cb7-a885-333b37928b76")
-		(property "Reference" "C8"
+		(property "Reference" "C?"
 			(at 49.53 40.6399 0)
 			(effects
 				(font
@@ -9391,6 +9619,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9403,7 +9637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3e6c803-a63d-418b-91f1-16e56f83b084")
-		(property "Reference" "C7"
+		(property "Reference" "C?"
 			(at 36.83 40.6399 0)
 			(effects
 				(font
@@ -9506,6 +9740,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9518,7 +9758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5f50834-4f50-4a1c-8998-29545c65ca7f")
-		(property "Reference" "S1"
+		(property "Reference" "S?"
 			(at 194.31 25.4 0)
 			(effects
 				(font
@@ -9626,6 +9866,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "S?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9638,7 +9884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8656a01-9506-4bf4-8486-f5d167b244d2")
-		(property "Reference" "C11"
+		(property "Reference" "C?"
 			(at 37.465 148.5899 0)
 			(effects
 				(font
@@ -9741,6 +9987,12 @@
 					(unit 1)
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(reference "C?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(sheet
@@ -9781,6 +10033,11 @@
 			(project "iot_device_pcb"
 				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5"
 					(page "4")
+				)
+			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(page "3")
 				)
 			)
 		)
@@ -9825,6 +10082,11 @@
 					(page "5")
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(page "4")
+				)
+			)
 		)
 	)
 	(sheet
@@ -9867,6 +10129,17 @@
 					(page "3")
 				)
 			)
+			(project "Microcontroller-ESP32-S3-WROOM-1"
+				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
+					(page "2")
+				)
+			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
