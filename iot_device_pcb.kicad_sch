@@ -3768,6 +3768,18 @@
 		(uuid 07f94387-3424-4fd1-b44c-c1988254a118)
 	)
 	(rectangle
+		(start 127 109.22)
+		(end 281.94 157.48)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4da9a819-b889-42e1-81a2-73939f175852)
+	)
+	(rectangle
 		(start 16.51 125.73)
 		(end 104.14 156.21)
 		(stroke
@@ -4039,7 +4051,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 120.65) (xy 160.02 120.65)
+			(xy 223.52 127) (xy 228.6 127)
 		)
 		(stroke
 			(width 0)
@@ -4119,7 +4131,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 123.19) (xy 160.02 123.19)
+			(xy 223.52 129.54) (xy 228.6 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5168,7 +5180,7 @@
 		(uuid "3403abff-c1d7-4d18-9bf8-1254b6b7ecc3")
 	)
 	(label "USBD-"
-		(at 160.02 123.19 0)
+		(at 228.6 129.54 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -5180,7 +5192,7 @@
 		(uuid "4e250a64-b865-4240-ba5f-04d0b5bd5559")
 	)
 	(label "USBD-"
-		(at 160.02 120.65 0)
+		(at 228.6 127 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -5760,7 +5772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b5aa255-a562-43e8-b82c-9646d0b16ce4")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR0102"
 			(at 246.38 82.55 0)
 			(effects
 				(font
@@ -5810,7 +5822,7 @@
 		(instances
 			(project "iot_device_pcb"
 				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8"
-					(reference "#PWR016")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -6476,7 +6488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e58f791-b0cd-4c3c-80ee-528386772bb7")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR0101"
 			(at 255.27 52.07 0)
 			(effects
 				(font
@@ -6526,7 +6538,7 @@
 		(instances
 			(project "iot_device_pcb"
 				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8"
-					(reference "#PWR017")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -10039,7 +10051,7 @@
 		)
 	)
 	(sheet
-		(at 112.395 116.84)
+		(at 180.975 123.19)
 		(size 42.545 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10055,7 +10067,7 @@
 		)
 		(uuid "d76e5a61-e019-4441-8e0f-87cbb4ce42a5")
 		(property "Sheetname" "Microcontroller-ESP32-S3-WROOM-1"
-			(at 112.395 116.1284 0)
+			(at 180.975 122.4784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10064,7 +10076,7 @@
 			)
 		)
 		(property "Sheetfile" "Microcontroller-ESP32-S3-WROOM-1.kicad_sch"
-			(at 112.395 139.0146 0)
+			(at 180.975 145.3646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10073,7 +10085,7 @@
 			)
 		)
 		(pin "USBD+" bidirectional
-			(at 154.94 120.65 0)
+			(at 223.52 127 0)
 			(uuid "de2dee55-3670-4d86-a0e5-6280e964452f")
 			(effects
 				(font
@@ -10083,7 +10095,7 @@
 			)
 		)
 		(pin "USBD-" bidirectional
-			(at 154.94 123.19 0)
+			(at 223.52 129.54 0)
 			(uuid "14f4d39b-2adb-4d96-94c0-50dff7b943aa")
 			(effects
 				(font
