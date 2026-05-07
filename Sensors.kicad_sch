@@ -4,5 +4,4582 @@
 	(generator_version "9.0")
 	(uuid "de0d4de5-93ba-4cfb-8757-3e3e7529235c")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Sensor:BME280"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -8.89 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BME280"
+				(at 7.62 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering"
+				(at 38.1 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "3-in-1 sensor, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Bosch pressure humidity temperature environment environmental measurement digital"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*LGA*2.5x2.5mm*P0.65mm*Clockwise*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BME280_0_1"
+				(rectangle
+					(start -10.16 10.16)
+					(end 10.16 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "BME280_1_1"
+				(pin power_in line
+					(at -2.54 15.24 270)
+					(length 5.08)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -15.24 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 15.24 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -15.24 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -7.62 180)
+					(length 5.08)
+					(name "CSB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Sensor_Motion:MPU-6050"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -11.43 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MPU-6050"
+				(at 7.62 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "InvenSense 6-Axis Motion Sensor, Gyroscope, Accelerometer, I2C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mems"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*QFN*4x4mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MPU-6050_0_1"
+				(rectangle
+					(start -12.7 13.97)
+					(end 12.7 -13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MPU-6050_1_1"
+				(pin bidirectional line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "AD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "FSYNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -17.78 -7.62 0)
+					(length 5.08)
+					(name "CLKIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 12.7 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 10.16 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 17.78 270)
+					(length 3.81)
+					(name "VLOGIC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 17.78 270)
+					(length 3.81)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 12.7 12.7 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "RESV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 12.7 -10.16 180)
+					(length 2.54)
+					(hide yes)
+					(name "RESV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 12.7 -12.7 180)
+					(length 2.54)
+					(hide yes)
+					(name "RESV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "AUX_DA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output clock
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "AUX_CL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "CPOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "REGOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 27.94 50.8)
+		(end 142.24 132.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4d9c1c36-26b1-4e6d-afd1-e46d23494fc4)
+	)
+	(rectangle
+		(start 154.94 50.8)
+		(end 279.4 132.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c6520259-9044-4ccb-8c7e-a1dc57744363)
+	)
+	(text "MPU6050"
+		(exclude_from_sim no)
+		(at 160.02 49.022 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "962d6ecc-60fb-4701-b210-d2ce5b6fd422")
+	)
+	(text "BM280"
+		(exclude_from_sim no)
+		(at 32.004 48.26 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+		)
+		(uuid "e3c8d1ea-0f12-4e9e-8ae1-5ad58135e9ba")
+	)
+	(junction
+		(at 254 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02e2ad02-2b6f-4041-b8b3-db493041faee")
+	)
+	(junction
+		(at 90.17 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08d75f54-7c83-4bc5-892b-3d47b97d70d6")
+	)
+	(junction
+		(at 217.17 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "118c8708-a31d-43b4-8933-a924ea910133")
+	)
+	(junction
+		(at 81.28 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2702890e-9510-42ee-91da-dfdf11476918")
+	)
+	(junction
+		(at 90.17 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bbd7b3f-b73c-4e6a-a698-7381e7baf79f")
+	)
+	(junction
+		(at 57.15 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3695a49e-99a8-474b-b020-504aa7eeb9a8")
+	)
+	(junction
+		(at 62.23 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37189c0b-ae7d-40d2-b8a0-ae17d0f1970f")
+	)
+	(junction
+		(at 186.69 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3954af52-5870-4b5b-91ec-a6678b16a45c")
+	)
+	(junction
+		(at 59.69 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d960fe2-d101-4494-bc1b-302bd4488a40")
+	)
+	(junction
+		(at 193.04 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54e81e43-6e9c-43b9-920e-4441bd848cb1")
+	)
+	(junction
+		(at 212.09 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c758d64d-2213-4533-8714-1e94edbc0a0b")
+	)
+	(junction
+		(at 177.8 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d77c8736-67d1-49a6-8409-3f86e8524d1c")
+	)
+	(junction
+		(at 81.28 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e697c7b4-c9bc-4164-aadf-57619387e3db")
+	)
+	(junction
+		(at 177.8 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcb01946-e5ef-42df-b714-1f4fa52747e5")
+	)
+	(wire
+		(pts
+			(xy 214.63 111.76) (xy 214.63 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0618793b-6439-42ce-a923-972d940939b9")
+	)
+	(wire
+		(pts
+			(xy 100.33 115.57) (xy 100.33 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0694fcf0-095a-46c5-9125-10649fbc1a9b")
+	)
+	(wire
+		(pts
+			(xy 196.85 99.06) (xy 193.04 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c7a9041-79b6-47b4-8d7d-a20b20ed967a")
+	)
+	(wire
+		(pts
+			(xy 233.68 62.23) (xy 217.17 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d8a4409-57e3-41d0-ab1a-1d4d1c2232ee")
+	)
+	(wire
+		(pts
+			(xy 186.69 85.09) (xy 186.69 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5c6ebe-3ffe-494d-ab8c-fbf2653f1b39")
+	)
+	(wire
+		(pts
+			(xy 177.8 67.31) (xy 177.8 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "110d5cd8-cd6b-4864-8fc7-65d3c7af2437")
+	)
+	(wire
+		(pts
+			(xy 40.64 82.55) (xy 40.64 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2081ac9c-39ff-4dd3-b9f9-9a25d4a31c45")
+	)
+	(wire
+		(pts
+			(xy 90.17 116.84) (xy 100.33 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a4d8e4a-b2c7-43e8-a281-571872842871")
+	)
+	(wire
+		(pts
+			(xy 250.19 99.06) (xy 250.19 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b928d03-f2fb-4bf5-a9bc-a263eb2d8706")
+	)
+	(wire
+		(pts
+			(xy 196.85 69.85) (xy 196.85 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c265078-4ff1-40c6-8cf2-5e774c177674")
+	)
+	(wire
+		(pts
+			(xy 186.69 88.9) (xy 196.85 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d3dff1-908a-41c1-a704-974488c79523")
+	)
+	(wire
+		(pts
+			(xy 81.28 111.76) (xy 81.28 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36c44efe-a5d1-42ec-9226-98d907ee9a42")
+	)
+	(wire
+		(pts
+			(xy 250.19 111.76) (xy 250.19 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d8ac8b-59d8-4cba-913e-4ca3d6e40c51")
+	)
+	(wire
+		(pts
+			(xy 167.64 88.9) (xy 186.69 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a566236-b0e9-4b65-8ef9-36f117a2ac24")
+	)
+	(wire
+		(pts
+			(xy 77.47 91.44) (xy 77.47 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce98320-5a27-4448-9412-4d37f06dafea")
+	)
+	(wire
+		(pts
+			(xy 232.41 99.06) (xy 250.19 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f9572cc-0194-4e72-8bc0-b9320c0ade1f")
+	)
+	(wire
+		(pts
+			(xy 212.09 62.23) (xy 212.09 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4090c8a7-bf90-4d7c-99c9-2e91878aba6d")
+	)
+	(wire
+		(pts
+			(xy 62.23 74.93) (xy 62.23 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "425fc5ee-2b3d-438a-99ae-41181280b389")
+	)
+	(wire
+		(pts
+			(xy 193.04 101.6) (xy 196.85 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4386a130-163c-45e7-a832-1abed2ff904e")
+	)
+	(wire
+		(pts
+			(xy 242.57 93.98) (xy 254 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d964ec-7b74-4afa-8ded-dacd334a6652")
+	)
+	(wire
+		(pts
+			(xy 167.64 91.44) (xy 196.85 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4578dbc5-7754-4974-bcf2-83c5d982b6af")
+	)
+	(wire
+		(pts
+			(xy 177.8 71.12) (xy 186.69 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47325b7d-0a4d-4ee5-8673-6b88d66029de")
+	)
+	(wire
+		(pts
+			(xy 90.17 96.52) (xy 105.41 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47bd2cc5-0e8a-48f2-8407-e835fb0c1429")
+	)
+	(wire
+		(pts
+			(xy 232.41 91.44) (xy 234.95 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "485e015a-9a4a-4dfc-9121-108c5b478830")
+	)
+	(wire
+		(pts
+			(xy 74.93 101.6) (xy 81.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "489d58c1-4cde-4168-a619-b22dbd6369ab")
+	)
+	(wire
+		(pts
+			(xy 40.64 90.17) (xy 40.64 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4964a91f-f155-4a13-8e40-3cb06fd51039")
+	)
+	(wire
+		(pts
+			(xy 57.15 118.11) (xy 59.69 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a968a62-9f52-4c99-9c4c-1ecff47014f2")
+	)
+	(wire
+		(pts
+			(xy 237.49 101.6) (xy 237.49 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a8472a5-d3d6-4d7b-b8f8-803709c47cfb")
+	)
+	(wire
+		(pts
+			(xy 193.04 116.84) (xy 193.04 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "630a4edc-8a36-4c30-a9a5-5a0b38c5253d")
+	)
+	(wire
+		(pts
+			(xy 237.49 111.76) (xy 237.49 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63364e27-6ad4-46c3-87cf-8d9bd845a466")
+	)
+	(wire
+		(pts
+			(xy 193.04 99.06) (xy 193.04 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "663c76db-16b7-4b49-97f1-fdd5e28e3843")
+	)
+	(wire
+		(pts
+			(xy 81.28 101.6) (xy 81.28 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69a9ab47-0318-4f4b-8297-8335e0e19264")
+	)
+	(wire
+		(pts
+			(xy 59.69 118.11) (xy 62.23 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f2938be-5b34-4893-bc2a-15af9502c32b")
+	)
+	(wire
+		(pts
+			(xy 62.23 114.3) (xy 62.23 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ae16b21-8e02-4289-833f-4278175a5978")
+	)
+	(wire
+		(pts
+			(xy 232.41 86.36) (xy 245.11 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84bead3c-4382-4d95-9fe9-74a4c6973510")
+	)
+	(wire
+		(pts
+			(xy 254 90.17) (xy 254 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "894ee2ca-6964-426e-b43d-d2aaf8a71bfa")
+	)
+	(wire
+		(pts
+			(xy 212.09 58.42) (xy 212.09 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e2a1e57-6b31-4b58-866c-eac953eb09d1")
+	)
+	(wire
+		(pts
+			(xy 57.15 114.3) (xy 57.15 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92d88959-f327-459d-a99d-ba7864397cc7")
+	)
+	(wire
+		(pts
+			(xy 81.28 116.84) (xy 90.17 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93fa4076-2e1e-417c-9632-6b502f0f00ab")
+	)
+	(wire
+		(pts
+			(xy 177.8 86.36) (xy 196.85 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d4ec9e-a586-4b47-a2ac-ced4982d8636")
+	)
+	(wire
+		(pts
+			(xy 74.93 106.68) (xy 74.93 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7b1165c-75ac-40ec-9083-c351e364e8c8")
+	)
+	(wire
+		(pts
+			(xy 232.41 101.6) (xy 237.49 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a821f3b9-6319-4f6a-8d7a-e91d3790f4c0")
+	)
+	(wire
+		(pts
+			(xy 242.57 91.44) (xy 254 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adac8956-c4bf-4c5e-b9e6-e43dedf8cebf")
+	)
+	(wire
+		(pts
+			(xy 233.68 69.85) (xy 233.68 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b395d9db-287b-490e-a752-1869cdab9ff5")
+	)
+	(wire
+		(pts
+			(xy 81.28 101.6) (xy 105.41 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf3e8690-2dc1-4a7a-932c-d2d3863ce818")
+	)
+	(wire
+		(pts
+			(xy 186.69 71.12) (xy 186.69 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2ca6cf8-3a5a-4f11-89f8-72691463dce4")
+	)
+	(wire
+		(pts
+			(xy 167.64 86.36) (xy 177.8 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3c48c6f-ef19-4331-9129-9c3689cd8a9b")
+	)
+	(wire
+		(pts
+			(xy 57.15 77.47) (xy 62.23 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4913c25-2f3f-4d18-9af9-3e8d78161b13")
+	)
+	(wire
+		(pts
+			(xy 90.17 111.76) (xy 90.17 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7210f0d-ffdf-4562-a365-59ccdaa7a01b")
+	)
+	(wire
+		(pts
+			(xy 62.23 83.82) (xy 62.23 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca2d086f-20ce-402f-80eb-9f20c04b6a14")
+	)
+	(wire
+		(pts
+			(xy 254 91.44) (xy 254 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb1df4e0-cb7e-4477-ade5-18d4a46f348b")
+	)
+	(wire
+		(pts
+			(xy 77.47 77.47) (xy 62.23 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb326395-b559-48f4-b95f-012145036d48")
+	)
+	(wire
+		(pts
+			(xy 212.09 62.23) (xy 217.17 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb96dbe7-83fe-4677-bab7-0e4584e60b96")
+	)
+	(wire
+		(pts
+			(xy 217.17 62.23) (xy 217.17 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbbf84db-1fcf-4278-9ffd-a61fd7a774d8")
+	)
+	(wire
+		(pts
+			(xy 232.41 93.98) (xy 234.95 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce1c8e36-0bc9-48f3-8e26-57137fedf0a3")
+	)
+	(wire
+		(pts
+			(xy 40.64 77.47) (xy 57.15 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce56604a-6163-4085-8e4d-da3fc80416a9")
+	)
+	(wire
+		(pts
+			(xy 90.17 96.52) (xy 90.17 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d46c9a91-8486-4464-9dc3-efe34a838846")
+	)
+	(wire
+		(pts
+			(xy 74.93 116.84) (xy 81.28 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e26b6a1b-f591-432e-855a-d7207b651415")
+	)
+	(wire
+		(pts
+			(xy 59.69 118.11) (xy 59.69 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e69868d1-bca1-4100-89ad-1d639a7bf1b6")
+	)
+	(wire
+		(pts
+			(xy 196.85 62.23) (xy 212.09 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e944b268-f79d-4a73-8f75-78697d454d95")
+	)
+	(wire
+		(pts
+			(xy 74.93 96.52) (xy 90.17 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9943a1f-bcf5-4aea-b008-7ab2bb76b8c3")
+	)
+	(wire
+		(pts
+			(xy 177.8 85.09) (xy 177.8 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1842b08-0167-447b-9728-d60a1ec6b217")
+	)
+	(wire
+		(pts
+			(xy 77.47 91.44) (xy 74.93 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f528d66b-cbd2-436f-9928-891fe887ffba")
+	)
+	(wire
+		(pts
+			(xy 57.15 77.47) (xy 57.15 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b573c8-7123-43dc-af2d-b551d4d34198")
+	)
+	(wire
+		(pts
+			(xy 177.8 77.47) (xy 177.8 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff65850e-5695-4de0-8bcb-75a9cc1f66a4")
+	)
+	(label "SCL"
+		(at 191.77 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b7962ef-c442-4ea4-9564-f7a92d070b8d")
+	)
+	(label "XDA"
+		(at 247.65 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "45da77d8-d950-481e-82aa-8da28193f336")
+	)
+	(label "SCL"
+		(at 82.55 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "590d4096-fdde-4611-8fa9-ee459552ca5e")
+	)
+	(label "SDA"
+		(at 191.77 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "69f12392-4cab-4074-83ba-09c1ed0c48f2")
+	)
+	(label "ADO"
+		(at 191.77 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f37bb62-2b54-48fd-a456-63656b4216cf")
+	)
+	(label "XCL"
+		(at 247.65 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "72ae19d1-b500-49ad-b9fb-bd6783348c55")
+	)
+	(label "SDA"
+		(at 82.55 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bd67f54-36df-4a0e-acba-39d8519ca77b")
+	)
+	(label "INT"
+		(at 237.49 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "e639dd86-9459-40b8-ac6a-1e75aca00cf1")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 167.64 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "1d8d79e6-7277-40af-ba6f-94c143c74375")
+	)
+	(hierarchical_label "INT"
+		(shape input)
+		(at 245.11 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "62d49162-386e-4881-9638-1856b741fbb6")
+	)
+	(hierarchical_label "ADO"
+		(shape input)
+		(at 167.64 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "a299f9e9-7ea7-4e7f-bcc1-5e320dae015f")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 105.41 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aed73008-510f-4abe-a3a3-f264edac7661")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 105.41 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ccf442ae-07e4-47fe-84ce-430e173f25bf")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 167.64 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "d675f128-aac3-4b86-9a2c-f3cdc74affdb")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.69 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "095c8715-9215-4ec4-b09c-e4a412bf4e86")
+		(property "Reference" "#PWR043"
+			(at 59.69 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55961b70-470b-4979-b587-e6ee84e642bc")
+		)
+		(instances
+			(project ""
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/bd1ed058-0d95-47ef-a7d2-a0812ed5db5b"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "160481c9-71f9-4d40-8eb5-45ed1f7532fb")
+		(property "Reference" "#PWR051"
+			(at 196.85 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 196.85 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a2f6c9a-c178-4b75-b8a7-c59e6d15381a")
+		)
+		(instances
+			(project "iot_device_pcb"
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/bd1ed058-0d95-47ef-a7d2-a0812ed5db5b"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 238.76 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a6e16aa-7753-42ce-921c-0c04ec01efb9")
+		(property "Reference" "R23"
+			(at 233.68 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K5"
+			(at 244.602 89.916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 238.76 93.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/826/1/n_catalog_partition01_en.pdf"
+			(at 238.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thin Film Resistors - SMD Thin Film Chip Resistors 0201 size, 0.063W, 47.5K ohm, 0.5%, 50ppm AEC Q200 Qualified Anti-sulfur"
+			(at 238.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 238.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part_number" "RG0603Q-4752-D-T10"
+			(at 238.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/Susumu/RG0603Q-4752-D-T10?qs=amGC7iS6iy%2FSgGA%2FUnp6Ag%3D%3D"
+			(at 238.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/susumu/RG0603Q-4752-D-T10/18103021?s=N4IgTCBcDaIEoHEAMA2JBmAigWgCwHYBWMbAEWwBUBGJEAXQF8g"
+			(at 238.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20136872"
+			(at 238.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f5ab80be-6b0a-4bbb-84f5-22a1e1725cd2")
+		)
+		(pin "1"
+			(uuid "e446a8ea-b609-4f54-b2e8-f02cb133ad72")
+		)
+		(instances
+			(project "iot_device_pcb"
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/bd1ed058-0d95-47ef-a7d2-a0812ed5db5b"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 238.76 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b673c63-83c1-4395-8966-bc1bbb94af84")
+		(property "Reference" "R24"
+			(at 234.188 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K5"
+			(at 244.348 96.012 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 238.76 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/826/1/n_catalog_partition01_en.pdf"
+			(at 238.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thin Film Resistors - SMD Thin Film Chip Resistors 0201 size, 0.063W, 47.5K ohm, 0.5%, 50ppm AEC Q200 Qualified Anti-sulfur"
+			(at 238.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 238.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part_number" "RG0603Q-4752-D-T10"
+			(at 238.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/Susumu/RG0603Q-4752-D-T10?qs=amGC7iS6iy%2FSgGA%2FUnp6Ag%3D%3D"
+			(at 238.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/susumu/RG0603Q-4752-D-T10/18103021?s=N4IgTCBcDaIEoHEAMA2JBmAigWgCwHYBWMbAEWwBUBGJEAXQF8g"
+			(at 238.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20136872"
+			(at 238.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a5ed7aa-350a-4f29-8b70-9539d2267a0f")
+		)
+		(pin "1"
+			(uuid "cd1f7b51-8ebf-4430-a644-dae6574f05b4")
+		)
+		(instances
+			(project "iot_device_pcb"
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/bd1ed058-0d95-47ef-a7d2-a0812ed5db5b"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 250.19 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d51d6d6-72a3-4309-ac91-ab9e316d9ac5")
+		(property "Reference" "C19"
+			(at 254 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220p"
+			(at 254 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 251.1552 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://spicat.kyocera-avx.com/product/Mlcc/chartview/0805ZC104JAT2A/dist/mouser"
+			(at 250.19 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT KGM21NR71A104JT NEW GLOBAL PN 10V 0.1uF A 581-KGM21NR71A104JT"
+			(at 250.19 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 250.19 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part_number" "0805ZC104JAT2A"
+			(at 250.19 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/KYOCERA-AVX/0805ZC104JAT2A?qs=Q5Oar%2FnnWZYq8DFSoLsWDw%3D%3D"
+			(at 250.19 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/kyocera-avx/KGM21NR71A104JT/3081414?s=N4IgTCBcDaIAwA44FYBaBhAjHALAKQEEAVMAkAXQF8g"
+			(at 250.19 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2174341"
+			(at 250.19 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03838ab8-633b-4eca-ab54-3b02999a0b54")
+		)
+		(pin "2"
+			(uuid "b6a27dd9-3a01-466b-84f8-4532b0cb1a27")
+		)
+		(instances
+			(project "iot_device_pcb"
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/bd1ed058-0d95-47ef-a7d2-a0812ed5db5b"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 212.09 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ec6295e-fcac-43b8-b4ed-c43b3f60272f")
+		(property "Reference" "#PWR049"
+			(at 212.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 212.09 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 212.09 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ce3de6f-ced4-4e41-a039-7dcea4af8510")
+		)
+		(instances
+			(project "iot_device_pcb"
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/bd1ed058-0d95-47ef-a7d2-a0812ed5db5b"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 40.64 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "399011b5-f470-4bf6-894e-c10da958183e")
+		(property "Reference" "#PWR044"
+			(at 40.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43622c57-e5bd-48ee-9f50-4db06ad2287b")
+		)
+		(instances
+			(project "iot_device_pcb"
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/bd1ed058-0d95-47ef-a7d2-a0812ed5db5b"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 81.28 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4da4c7c4-58f3-46de-9935-76be436e2298")
+		(property "Reference" "R?"
+			(at 83.82 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 83.82 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 79.502 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/826/1/n_catalog_partition01_en.pdf"
+			(at 81.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thin Film Resistors - SMD Thin Film Chip Resistors 0201 size, 0.063W, 47.5K ohm, 0.5%, 50ppm AEC Q200 Qualified Anti-sulfur"
+			(at 81.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 81.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part_number" "RG0603Q-4752-D-T10"
+			(at 81.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/Susumu/RG0603Q-4752-D-T10?qs=amGC7iS6iy%2FSgGA%2FUnp6Ag%3D%3D"
+			(at 81.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/susumu/RG0603Q-4752-D-T10/18103021?s=N4IgTCBcDaIEoHEAMA2JBmAigWgCwHYBWMbAEWwBUBGJEAXQF8g"
+			(at 81.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20136872"
+			(at 81.28 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c558eb55-6659-483e-91a0-be340d9d77f4")
+		)
+		(pin "1"
+			(uuid "41b9bc94-0d4e-4041-abd6-827dab34ef7b")
+		)
+		(instances
+			(project "iot_device_pcb"
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/bd1ed058-0d95-47ef-a7d2-a0812ed5db5b"
+					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 100.33 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "617e5601-2b76-46fa-9626-a6192f10a46c")
+		(property "Reference" "#PWR046"
+			(at 100.33 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 100.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 100.33 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cd4da40-f43f-42fb-8228-5a5c0507b902")
+		)
+		(instances
+			(project "iot_device_pcb"
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/bd1ed058-0d95-47ef-a7d2-a0812ed5db5b"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 62.23 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "749993e9-e194-4c0c-a995-d1d654b2a785")
+		(property "Reference" "#PWR045"
+			(at 62.23 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 62.23 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 62.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9c492c8-3d70-4fc8-8ef4-1ea24ec69256")
+		)
+		(instances
+			(project ""
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/bd1ed058-0d95-47ef-a7d2-a0812ed5db5b"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 237.49 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e8d1c27-15d3-4707-9904-a93481c5e197")
+		(property "Reference" "C18"
+			(at 241.3 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 241.3 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 238.4552 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://spicat.kyocera-avx.com/product/Mlcc/chartview/0805ZC104JAT2A/dist/mouser"
+			(at 237.49 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT KGM21NR71A104JT NEW GLOBAL PN 10V 0.1uF A 581-KGM21NR71A104JT"
+			(at 237.49 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 237.49 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part_number" "0805ZC104JAT2A"
+			(at 237.49 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/KYOCERA-AVX/0805ZC104JAT2A?qs=Q5Oar%2FnnWZYq8DFSoLsWDw%3D%3D"
+			(at 237.49 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/kyocera-avx/KGM21NR71A104JT/3081414?s=N4IgTCBcDaIAwA44FYBaBhAjHALAKQEEAVMAkAXQF8g"
+			(at 237.49 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2174341"
+			(at 237.49 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ca59dc1-8195-490f-a9d0-5d03ca880bd8")
+		)
+		(pin "2"
+			(uuid "fee190da-7d89-48b7-a594-5cd1f1696ddc")
+		)
+		(instances
+			(project "iot_device_pcb"
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/bd1ed058-0d95-47ef-a7d2-a0812ed5db5b"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Motion:MPU-6050")
+		(at 214.63 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82084ab4-0ef3-4521-9e38-567de5f279ce")
+		(property "Reference" "U6"
+			(at 216.7733 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MPU-6050"
+			(at 216.7733 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm"
+			(at 214.63 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf"
+			(at 214.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "InvenSense 6-Axis Motion Sensor, Gyroscope, Accelerometer, I2C"
+			(at 214.63 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "23"
+			(uuid "0aed87c3-855c-4901-930b-945c38bbf2f3")
+		)
+		(pin "8"
+			(uuid "f2ef27b2-8d14-4105-a807-ab8eb344e49b")
+		)
+		(pin "14"
+			(uuid "4459d985-7c84-4aa3-bea7-864590215185")
+		)
+		(pin "9"
+			(uuid "383f138b-70f5-41bb-a96d-19a389898afd")
+		)
+		(pin "11"
+			(uuid "36d4a55d-50ce-4dc2-9034-97c4823eae00")
+		)
+		(pin "1"
+			(uuid "c60733be-8ed1-45df-bae8-6c8fec65794e")
+		)
+		(pin "3"
+			(uuid "f7aa845d-d11a-42ec-96fa-0c9323d42649")
+		)
+		(pin "12"
+			(uuid "a1d59f65-234c-4ada-9508-5ace6c9dec7c")
+		)
+		(pin "2"
+			(uuid "3669c79b-4289-459b-b5b7-bc5219a55eda")
+		)
+		(pin "24"
+			(uuid "85b6aa05-f453-498b-86c8-5894f555befa")
+		)
+		(pin "4"
+			(uuid "46b61db4-8398-4ac0-8931-a3675b75b9f5")
+		)
+		(pin "5"
+			(uuid "c09e66e1-1920-49da-93ee-62ba74b61df1")
+		)
+		(pin "19"
+			(uuid "25d3c536-5199-4e3d-a188-e3e650be0386")
+		)
+		(pin "16"
+			(uuid "a30c8907-8253-4081-bed1-cdcb3c39d88a")
+		)
+		(pin "21"
+			(uuid "d13f3283-0976-4248-9b7d-8b9ac8903f32")
+		)
+		(pin "6"
+			(uuid "f7ea9a75-d2cf-4cca-a841-aaee814cf1b9")
+		)
+		(pin "20"
+			(uuid "8921358c-a6f5-4637-8447-4f840817d92a")
+		)
+		(pin "18"
+			(uuid "7b1df1b7-404c-49ad-9680-a921e838d7f0")
+		)
+		(pin "15"
+			(uuid "1bc368c1-977d-435b-a89d-6194e8fea565")
+		)
+		(pin "7"
+			(uuid "231c3246-b843-4ecb-bccc-dbacdfb02567")
+		)
+		(pin "17"
+			(uuid "831f144d-064d-4775-80bc-5bf8388410c7")
+		)
+		(pin "22"
+			(uuid "3a69c166-2cd9-41f5-9867-360ada0d2bcc")
+		)
+		(pin "13"
+			(uuid "2648b487-1dd8-4115-816a-f716589a40a4")
+		)
+		(pin "10"
+			(uuid "237b01a4-4b51-4f52-9d09-3cabbb97851e")
+		)
+		(instances
+			(project ""
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/bd1ed058-0d95-47ef-a7d2-a0812ed5db5b"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 250.19 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82b0ca29-d910-4415-88f7-92d38f627308")
+		(property "Reference" "#PWR055"
+			(at 250.19 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 250.19 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 250.19 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53cb89b7-e7fc-4fb3-9f83-43fbeafdb513")
+		)
+		(instances
+			(project "iot_device_pcb"
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/bd1ed058-0d95-47ef-a7d2-a0812ed5db5b"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 233.68 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b5528df-ede0-4e80-9a06-b6330887ded5")
+		(property "Reference" "C16"
+			(at 237.49 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 237.49 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 234.6452 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://spicat.kyocera-avx.com/product/Mlcc/chartview/0805ZC104JAT2A/dist/mouser"
+			(at 233.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT KGM21NR71A104JT NEW GLOBAL PN 10V 0.1uF A 581-KGM21NR71A104JT"
+			(at 233.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 233.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part_number" "0805ZC104JAT2A"
+			(at 233.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/KYOCERA-AVX/0805ZC104JAT2A?qs=Q5Oar%2FnnWZYq8DFSoLsWDw%3D%3D"
+			(at 233.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/kyocera-avx/KGM21NR71A104JT/3081414?s=N4IgTCBcDaIAwA44FYBaBhAjHALAKQEEAVMAkAXQF8g"
+			(at 233.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2174341"
+			(at 233.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "876e5729-6879-47c6-9426-13b017c1b666")
+		)
+		(pin "2"
+			(uuid "00e33069-4652-4f8d-97b3-283025ba3d9b")
+		)
+		(instances
+			(project "iot_device_pcb"
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/bd1ed058-0d95-47ef-a7d2-a0812ed5db5b"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 254 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "993ed676-5ae5-481b-9199-d9b86a81a458")
+		(property "Reference" "#PWR052"
+			(at 254 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 254 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 254 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f3643b6-5538-4e78-b642-4bcbaf6b5a8c")
+		)
+		(instances
+			(project "iot_device_pcb"
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/bd1ed058-0d95-47ef-a7d2-a0812ed5db5b"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a59ccda-c418-4026-820e-63a2e073cac1")
+		(property "Reference" "#PWR048"
+			(at 233.68 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3d38bba-2c83-4317-aff4-80823efd6b82")
+		)
+		(instances
+			(project "iot_device_pcb"
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/bd1ed058-0d95-47ef-a7d2-a0812ed5db5b"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 177.8 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5f74ce0-ec5e-4a39-b708-a45efb3e90b9")
+		(property "Reference" "R21"
+			(at 180.34 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 180.34 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 176.022 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/826/1/n_catalog_partition01_en.pdf"
+			(at 177.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thin Film Resistors - SMD Thin Film Chip Resistors 0201 size, 0.063W, 47.5K ohm, 0.5%, 50ppm AEC Q200 Qualified Anti-sulfur"
+			(at 177.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 177.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part_number" "RG0603Q-4752-D-T10"
+			(at 177.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/Susumu/RG0603Q-4752-D-T10?qs=amGC7iS6iy%2FSgGA%2FUnp6Ag%3D%3D"
+			(at 177.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/susumu/RG0603Q-4752-D-T10/18103021?s=N4IgTCBcDaIEoHEAMA2JBmAigWgCwHYBWMbAEWwBUBGJEAXQF8g"
+			(at 177.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20136872"
+			(at 177.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c3b0417f-064f-455f-9433-4bb4ec36c63b")
+		)
+		(pin "1"
+			(uuid "1ca4545d-a7b4-4331-aa48-704937db926c")
+		)
+		(instances
+			(project "iot_device_pcb"
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/bd1ed058-0d95-47ef-a7d2-a0812ed5db5b"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 90.17 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8c2fb85-97ee-402a-923a-e8f3014b2682")
+		(property "Reference" "R20"
+			(at 92.71 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 92.71 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 88.392 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/826/1/n_catalog_partition01_en.pdf"
+			(at 90.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thin Film Resistors - SMD Thin Film Chip Resistors 0201 size, 0.063W, 47.5K ohm, 0.5%, 50ppm AEC Q200 Qualified Anti-sulfur"
+			(at 90.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 90.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part_number" "RG0603Q-4752-D-T10"
+			(at 90.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/Susumu/RG0603Q-4752-D-T10?qs=amGC7iS6iy%2FSgGA%2FUnp6Ag%3D%3D"
+			(at 90.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/susumu/RG0603Q-4752-D-T10/18103021?s=N4IgTCBcDaIEoHEAMA2JBmAigWgCwHYBWMbAEWwBUBGJEAXQF8g"
+			(at 90.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20136872"
+			(at 90.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7cf5756c-5955-4e9c-b68b-799756ae122b")
+		)
+		(pin "1"
+			(uuid "0383e953-26aa-48be-8ac4-02d73918dc55")
+		)
+		(instances
+			(project "iot_device_pcb"
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/bd1ed058-0d95-47ef-a7d2-a0812ed5db5b"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 196.85 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae378832-2519-4b89-a423-f56c409e271f")
+		(property "Reference" "C17"
+			(at 200.66 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 200.66 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 197.8152 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://spicat.kyocera-avx.com/product/Mlcc/chartview/0805ZC104JAT2A/dist/mouser"
+			(at 196.85 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT KGM21NR71A104JT NEW GLOBAL PN 10V 0.1uF A 581-KGM21NR71A104JT"
+			(at 196.85 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 196.85 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part_number" "0805ZC104JAT2A"
+			(at 196.85 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/KYOCERA-AVX/0805ZC104JAT2A?qs=Q5Oar%2FnnWZYq8DFSoLsWDw%3D%3D"
+			(at 196.85 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/kyocera-avx/KGM21NR71A104JT/3081414?s=N4IgTCBcDaIAwA44FYBaBhAjHALAKQEEAVMAkAXQF8g"
+			(at 196.85 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2174341"
+			(at 196.85 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "599ab50b-b7bc-494d-99c6-e19afdcbb1ec")
+		)
+		(pin "2"
+			(uuid "b33e2aa9-f629-452d-82d3-274e9babd809")
+		)
+		(instances
+			(project "iot_device_pcb"
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/bd1ed058-0d95-47ef-a7d2-a0812ed5db5b"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor:BME280")
+		(at 59.69 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c856286d-9877-49ca-abec-882138320008")
+		(property "Reference" "U5"
+			(at 48.26 97.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BME280"
+			(at 48.26 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering"
+			(at 97.79 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf"
+			(at 59.69 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-in-1 sensor, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
+			(at 59.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 59.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part_number" ""
+			(at 59.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_1" ""
+			(at 59.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_2" ""
+			(at 59.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 59.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "4cbc3929-fcd5-4709-bad3-aa425d30db1c")
+		)
+		(pin "3"
+			(uuid "bc1c4910-52e8-4ffa-bbf0-b00b10c0396f")
+		)
+		(pin "7"
+			(uuid "47d230fe-6a03-48b1-a59c-294bd10c40ef")
+		)
+		(pin "5"
+			(uuid "4493c08d-af55-40db-8f11-d5f5be9fdb8e")
+		)
+		(pin "4"
+			(uuid "d1af9a4a-70b6-40dc-9af3-4e834263e629")
+		)
+		(pin "1"
+			(uuid "72cc83d0-d169-4c9e-9246-d74f848bff19")
+		)
+		(pin "8"
+			(uuid "9a25f818-476e-45fa-b7b4-ee96dc38277f")
+		)
+		(pin "2"
+			(uuid "b906a338-40b0-4bca-bab7-81674014f0e9")
+		)
+		(instances
+			(project ""
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/bd1ed058-0d95-47ef-a7d2-a0812ed5db5b"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 40.64 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc13c0ed-aee7-40e9-90be-27cb2c575b65")
+		(property "Reference" "C15"
+			(at 44.45 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 44.45 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 41.6052 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://spicat.kyocera-avx.com/product/Mlcc/chartview/0805ZC104JAT2A/dist/mouser"
+			(at 40.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT KGM21NR71A104JT NEW GLOBAL PN 10V 0.1uF A 581-KGM21NR71A104JT"
+			(at 40.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 40.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part_number" "0805ZC104JAT2A"
+			(at 40.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/KYOCERA-AVX/0805ZC104JAT2A?qs=Q5Oar%2FnnWZYq8DFSoLsWDw%3D%3D"
+			(at 40.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/kyocera-avx/KGM21NR71A104JT/3081414?s=N4IgTCBcDaIAwA44FYBaBhAjHALAKQEEAVMAkAXQF8g"
+			(at 40.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2174341"
+			(at 40.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3766b55-71dd-4416-8f56-6971c2200102")
+		)
+		(pin "2"
+			(uuid "947a3d8e-87f1-4c48-be69-c33140bf208c")
+		)
+		(instances
+			(project "iot_device_pcb"
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/bd1ed058-0d95-47ef-a7d2-a0812ed5db5b"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 237.49 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5495f3c-f3f8-4d20-aafe-a5191acd264b")
+		(property "Reference" "#PWR054"
+			(at 237.49 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 237.49 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7e7d8ef-07d4-414f-a626-d32ec17c16af")
+		)
+		(instances
+			(project "iot_device_pcb"
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/bd1ed058-0d95-47ef-a7d2-a0812ed5db5b"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 186.69 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd4f328c-a1f5-42da-a576-dda01212b0cc")
+		(property "Reference" "R22"
+			(at 189.23 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 189.23 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 184.912 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/826/1/n_catalog_partition01_en.pdf"
+			(at 186.69 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thin Film Resistors - SMD Thin Film Chip Resistors 0201 size, 0.063W, 47.5K ohm, 0.5%, 50ppm AEC Q200 Qualified Anti-sulfur"
+			(at 186.69 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Susumu"
+			(at 186.69 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_part_number" "RG0603Q-4752-D-T10"
+			(at 186.69 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/Susumu/RG0603Q-4752-D-T10?qs=amGC7iS6iy%2FSgGA%2FUnp6Ag%3D%3D"
+			(at 186.69 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/susumu/RG0603Q-4752-D-T10/18103021?s=N4IgTCBcDaIEoHEAMA2JBmAigWgCwHYBWMbAEWwBUBGJEAXQF8g"
+			(at 186.69 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20136872"
+			(at 186.69 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c248001f-2b55-4adc-acdf-8e72df92f784")
+		)
+		(pin "1"
+			(uuid "c7f30bb0-fe2e-4017-b187-7bc80bd6da21")
+		)
+		(instances
+			(project "iot_device_pcb"
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/bd1ed058-0d95-47ef-a7d2-a0812ed5db5b"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 193.04 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddaf8f2b-daa0-4fb3-a1d7-b17c25c477ee")
+		(property "Reference" "#PWR053"
+			(at 193.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74cb048d-54cd-4e56-a900-218ed0fd685e")
+		)
+		(instances
+			(project "iot_device_pcb"
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/bd1ed058-0d95-47ef-a7d2-a0812ed5db5b"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 214.63 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee3bda83-3462-4424-bfe6-876d2c9f7b51")
+		(property "Reference" "#PWR047"
+			(at 214.63 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eea86f9c-0bfe-4b4d-9e18-e9a756044144")
+		)
+		(instances
+			(project ""
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/bd1ed058-0d95-47ef-a7d2-a0812ed5db5b"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 177.8 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f16c7271-76a4-48c0-8361-e9e509b63576")
+		(property "Reference" "#PWR050"
+			(at 177.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 177.8 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 177.8 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afaea4bf-323a-46bd-87e0-c8e674079353")
+		)
+		(instances
+			(project "iot_device_pcb"
+				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/bd1ed058-0d95-47ef-a7d2-a0812ed5db5b"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
