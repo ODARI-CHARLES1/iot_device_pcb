@@ -4508,7 +4508,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 99.06) (xy 223.52 99.06)
+			(xy 215.9 99.06) (xy 223.52 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4698,7 +4698,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 104.14) (xy 223.52 104.14)
+			(xy 215.9 104.14) (xy 223.52 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4908,7 +4908,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 101.6) (xy 256.54 101.6)
+			(xy 254 101.6) (xy 259.08 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5088,7 +5088,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 99.06) (xy 256.54 99.06)
+			(xy 254 99.06) (xy 259.08 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5348,7 +5348,7 @@
 		(uuid "0c60934e-c765-4cb7-85aa-c76e3710c61f")
 	)
 	(label "BOOT"
-		(at 218.44 104.14 0)
+		(at 215.9 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5358,7 +5358,7 @@
 		(uuid "0e4a843c-c4c2-4cea-bb4f-c0fa46193540")
 	)
 	(label "EN"
-		(at 218.44 99.06 0)
+		(at 215.9 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5377,6 +5377,18 @@
 		)
 		(uuid "27b41a1f-903a-4c1c-b9e6-71c9d083b91d")
 	)
+	(label "RTS"
+		(at 109.22 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "296799d0-0844-4df7-b687-950ca6ff6aa8")
+	)
 	(label "DTS"
 		(at 90.17 138.43 0)
 		(effects
@@ -5388,7 +5400,7 @@
 		(uuid "3117ef53-b7b2-414c-a49f-e2ae33453942")
 	)
 	(label "TX_RX"
-		(at 256.54 101.6 0)
+		(at 259.08 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5399,7 +5411,7 @@
 		(uuid "315e871a-03c5-4951-bd7c-19155db210f3")
 	)
 	(label "RX_TX"
-		(at 256.54 99.06 0)
+		(at 259.08 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5408,6 +5420,18 @@
 			(justify left bottom)
 		)
 		(uuid "3bb9315a-564b-4388-9966-7d1e0d83b8d3")
+	)
+	(label "DTR"
+		(at 109.22 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e059147-0a11-458a-bf80-9735c172301c")
 	)
 	(label "RTS"
 		(at 90.17 135.89 0)
@@ -5441,6 +5465,18 @@
 		(uuid "a9723531-c7c9-4576-9b84-751c8258d9de")
 	)
 	(label "EN"
+		(at 231.14 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b77a2e71-1f0c-45e4-92cc-e532cdbdfd33")
+	)
+	(label "EN"
 		(at 137.16 24.13 0)
 		(effects
 			(font
@@ -5449,6 +5485,18 @@
 			(justify left bottom)
 		)
 		(uuid "c7d4ba62-43ce-4164-abc8-59de147b841a")
+	)
+	(label "BOOT"
+		(at 168.91 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb35bafc-76b4-48ea-b2d6-31ed18f7ea3f")
 	)
 	(hierarchical_label "DTR"
 		(shape input)
