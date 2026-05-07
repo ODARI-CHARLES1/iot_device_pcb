@@ -533,7 +533,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 92.71) (xy 72.39 92.71)
+			(xy 66.04 92.71) (xy 73.66 92.71)
 		)
 		(stroke
 			(width 0)
@@ -553,7 +553,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 90.17) (xy 72.39 90.17)
+			(xy 66.04 90.17) (xy 73.66 90.17)
 		)
 		(stroke
 			(width 0)
@@ -561,9 +561,33 @@
 		)
 		(uuid "f986d46b-2f08-4c85-adba-661020653ecf")
 	)
+	(label "SDA"
+		(at 68.58 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d893ff6d-6cea-420a-9c46-b23dbf239f65")
+	)
+	(label "SCL"
+		(at 68.58 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "e0f560d3-cb33-4c60-bb1c-303f6bba373f")
+	)
 	(hierarchical_label "SCL"
 		(shape input)
-		(at 72.39 92.71 0)
+		(at 73.66 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -574,7 +598,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape input)
-		(at 72.39 90.17 0)
+		(at 73.66 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
