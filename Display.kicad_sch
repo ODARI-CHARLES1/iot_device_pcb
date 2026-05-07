@@ -253,7 +253,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 83.82) (xy 146.05 83.82)
+			(xy 135.89 96.52) (xy 142.24 96.52)
 		)
 		(stroke
 			(width 0)
@@ -263,7 +263,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 91.44) (xy 146.05 91.44)
+			(xy 135.89 104.14) (xy 142.24 104.14)
 		)
 		(stroke
 			(width 0)
@@ -273,7 +273,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 86.36) (xy 146.05 86.36)
+			(xy 135.89 99.06) (xy 142.24 99.06)
 		)
 		(stroke
 			(width 0)
@@ -283,7 +283,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 88.9) (xy 146.05 88.9)
+			(xy 135.89 101.6) (xy 142.24 101.6)
 		)
 		(stroke
 			(width 0)
@@ -293,7 +293,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 134.62 86.36 0)
+		(at 130.81 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -302,7 +302,7 @@
 		(fields_autoplaced yes)
 		(uuid "3878ae2d-331d-4375-84df-24e70d601764")
 		(property "Reference" "J3"
-			(at 135.255 78.74 0)
+			(at 131.445 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -310,7 +310,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 135.255 81.28 0)
+			(at 131.445 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -318,7 +318,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 86.36 0)
+			(at 130.81 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -327,7 +327,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 86.36 0)
+			(at 130.81 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -336,7 +336,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 134.62 86.36 0)
+			(at 130.81 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
