@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -180,7 +186,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +215,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -475,50 +488,79 @@
         "wire_width": 6
       },
       {
-        "name": "+5V",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgb(0, 0, 132)"
-      },
-      {
-        "line_style": 0,
-        "name": "3.3V",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgb(72, 72, 0)"
-      },
-      {
-        "name": "GND",
+        "bus_width": 12,
+        "name": "CONTROL ",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
-        "schematic_color": "rgb(128, 77, 0)"
+        "schematic_color": "rgb(0, 194, 194)",
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "name": "GPIO",
+        "pcb_color": "rgb(255, 99, 0)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 153, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "line_style": 0,
         "name": "I2C",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
-        "schematic_color": "rgb(0, 72, 0)"
+        "priority": 8,
+        "schematic_color": "rgb(0, 72, 72)",
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "name": "POWER",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(0, 0, 132)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "name": "PWRGND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(204, 102, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "line_style": 0,
         "name": "SPI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgb(0, 72, 72)"
+        "priority": 7,
+        "schematic_color": "rgb(0, 132, 132)",
+        "wire_width": 6
       },
       {
-        "name": "USB",
+        "bus_width": 12,
+        "name": "UART",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
-        "schematic_color": "rgb(0, 0, 72)"
+        "schematic_color": "rgb(132, 132, 0)",
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgb(0, 0, 255)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "line_style": 0,
         "name": "VBUS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgb(72, 0, 72)"
+        "priority": 6,
+        "schematic_color": "rgb(194, 0, 194)",
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -528,11 +570,11 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "3.3V",
-        "pattern": "*3.3V"
+        "netclass": "POWER",
+        "pattern": "+*"
       },
       {
-        "netclass": "GND",
+        "netclass": "PWRGND",
         "pattern": "GND"
       },
       {
@@ -540,8 +582,56 @@
         "pattern": "VBUS"
       },
       {
-        "netclass": "+5V",
-        "pattern": "*5V"
+        "netclass": "USB",
+        "pattern": "/USBD*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB_D-"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "*RX_TX"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "*TX_RX"
+      },
+      {
+        "netclass": "CONTROL ",
+        "pattern": "*DTR"
+      },
+      {
+        "netclass": "CONTROL ",
+        "pattern": "*BOOT"
+      },
+      {
+        "netclass": "CONTROL ",
+        "pattern": "*EN"
+      },
+      {
+        "netclass": "CONTROL ",
+        "pattern": "*DTS"
+      },
+      {
+        "netclass": "CONTROL ",
+        "pattern": "*RTS"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "*GPIO*"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "*SDA"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "*SCL"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "*INT"
       }
     ]
   },
@@ -691,7 +781,7 @@
     ],
     [
       "aa026ecb-1fa8-4122-9bb8-4aceed4f9045",
-      "Display"
+      "Connectors"
     ]
   ],
   "text_variables": {}
