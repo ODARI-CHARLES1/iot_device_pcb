@@ -6751,7 +6751,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FootPrints:JST_B2B-PH-K-S_LF__SN_"
+		(property "Footprint" "Connector_JST:JST_ACH_BM01B-ACHSS-A-GAN-ETF_1x01-1MP_P1.20mm_Vertical"
 			(at 29.21 135.89 0)
 			(effects
 				(font
