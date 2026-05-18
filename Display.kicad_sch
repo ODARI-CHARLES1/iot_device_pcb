@@ -1356,7 +1356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "092fd23b-65f7-415b-887f-556d90155da0")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR059"
 			(at 77.47 85.09 0)
 			(effects
 				(font
@@ -1406,7 +1406,7 @@
 		(instances
 			(project ""
 				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/aa026ecb-1fa8-4122-9bb8-4aceed4f9045"
-					(reference "#PWR058")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -1422,7 +1422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d073cbc-f4b7-437d-aec2-23a9b7b9c4bf")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR061"
 			(at 83.82 93.98 0)
 			(effects
 				(font
@@ -1472,7 +1472,7 @@
 		(instances
 			(project ""
 				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/aa026ecb-1fa8-4122-9bb8-4aceed4f9045"
-					(reference "#PWR060")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -1562,7 +1562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cabe644-0960-4993-b5fb-a98e9f6fdcb0")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR060"
 			(at 80.01 129.54 0)
 			(effects
 				(font
@@ -1612,7 +1612,7 @@
 		(instances
 			(project "iot_device_pcb"
 				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/aa026ecb-1fa8-4122-9bb8-4aceed4f9045"
-					(reference "#PWR059")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -1702,7 +1702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "937ef7af-6d5d-4c6e-8bbc-14276dc474ed")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR062"
 			(at 86.36 138.43 0)
 			(effects
 				(font
@@ -1752,7 +1752,7 @@
 		(instances
 			(project "iot_device_pcb"
 				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/aa026ecb-1fa8-4122-9bb8-4aceed4f9045"
-					(reference "#PWR061")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
