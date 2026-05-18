@@ -3915,18 +3915,6 @@
 		(uuid "1f1e0841-61c0-471c-abf3-eaca37f3348c")
 	)
 	(junction
-		(at 20.32 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1fb1d355-00bb-4ef0-889a-070aa836ace6")
-	)
-	(junction
-		(at 20.32 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "289ffc80-23c0-4024-990f-55659bdf52d8")
-	)
-	(junction
 		(at 119.38 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3963,12 +3951,6 @@
 		(uuid "481f635c-d5c1-4629-aa99-0ab89bf51236")
 	)
 	(junction
-		(at 45.72 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "544af352-e055-4d7e-b73d-29c4c06d22ca")
-	)
-	(junction
 		(at 209.042 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3979,12 +3961,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6169f1ef-9e89-4fd7-91cc-e863c7f2bd88")
-	)
-	(junction
-		(at 45.72 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e8e0a31-1f95-4517-8909-bce13d8181c5")
 	)
 	(junction
 		(at 67.31 123.825)
@@ -4023,12 +3999,6 @@
 		(uuid "b3b19a08-0b34-47fb-9816-a93d64dde0b7")
 	)
 	(junction
-		(at 33.02 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9cd1012-440c-47a0-9ec8-1f365efb227e")
-	)
-	(junction
 		(at 234.95 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4039,12 +4009,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efb048e9-fae2-4504-abc5-c5f17be6e5ab")
-	)
-	(junction
-		(at 33.02 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd9e6396-9ddd-48d5-b627-6988535a3209")
 	)
 	(no_connect
 		(at 223.52 144.78)
@@ -4198,23 +4162,13 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 88.9) (xy 238.76 93.98)
+			(xy 238.76 83.82) (xy 238.76 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "081152b5-451d-423d-b836-c5d3ea4ed32b")
-	)
-	(wire
-		(pts
-			(xy 45.72 33.02) (xy 45.72 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a021797-a6c1-465d-b00d-0b090a0c6af7")
 	)
 	(wire
 		(pts
@@ -4245,16 +4199,6 @@
 			(type default)
 		)
 		(uuid "0cceca15-1c41-491d-b3f6-010860904f7f")
-	)
-	(wire
-		(pts
-			(xy 33.02 54.61) (xy 45.72 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ef55250-371e-4a94-a3bb-9ed6fb2ae828")
 	)
 	(wire
 		(pts
@@ -4338,7 +4282,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 38.1) (xy 20.32 33.02)
+			(xy 20.32 27.94) (xy 20.32 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4408,16 +4352,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 33.02) (xy 45.72 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21e3b891-ac0b-483b-9e03-6584266ff44a")
-	)
-	(wire
-		(pts
 			(xy 238.76 149.86) (xy 238.76 153.67)
 		)
 		(stroke
@@ -4468,16 +4402,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 33.02) (xy 57.15 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "327d824c-7b72-456f-bf1c-bc0a0ad0f70a")
-	)
-	(wire
-		(pts
 			(xy 270.002 33.02) (xy 270.002 54.864)
 		)
 		(stroke
@@ -4518,17 +4442,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 38.1) (xy 33.02 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d8a22d1-1ba0-4f59-bf8c-4d45e50fa923")
-	)
-	(wire
-		(pts
-			(xy 20.32 54.61) (xy 20.32 59.69)
+			(xy 20.32 45.72) (xy 20.32 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4715,16 +4629,6 @@
 			(type default)
 		)
 		(uuid "631d3bd0-d42a-4315-bc4c-e312c6b67500")
-	)
-	(wire
-		(pts
-			(xy 20.32 45.72) (xy 20.32 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66af591f-4ab7-40fe-9d16-c3186e0a6240")
 	)
 	(wire
 		(pts
@@ -5108,16 +5012,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 45.72) (xy 45.72 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8afe0c1-52ef-4cc5-ad25-6c7e237e6d3c")
-	)
-	(wire
-		(pts
 			(xy 19.05 158.75) (xy 33.655 158.75)
 		)
 		(stroke
@@ -5158,16 +5052,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 54.61) (xy 57.15 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae0823c5-50b1-4ee3-83f3-2dccc2f89a48")
-	)
-	(wire
-		(pts
 			(xy 185.42 138.43) (xy 189.23 138.43)
 		)
 		(stroke
@@ -5175,16 +5059,6 @@
 			(type default)
 		)
 		(uuid "b2052176-5178-4f9e-a2fa-5d9e3a63cd91")
-	)
-	(wire
-		(pts
-			(xy 33.02 45.72) (xy 33.02 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5363810-f526-42e4-bc9e-c1d45afc299f")
 	)
 	(wire
 		(pts
@@ -5235,16 +5109,6 @@
 			(type default)
 		)
 		(uuid "b8389101-e341-4403-ad0e-a5427601d61e")
-	)
-	(wire
-		(pts
-			(xy 45.72 33.02) (xy 57.15 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9d6fb5a-d03c-4d02-8ae5-2d23640a4aa1")
 	)
 	(wire
 		(pts
@@ -5318,16 +5182,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 27.94) (xy 20.32 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3c9692c-eec9-4e21-a963-e92f198fc839")
-	)
-	(wire
-		(pts
 			(xy 67.31 108.585) (xy 67.31 110.49)
 		)
 		(stroke
@@ -5355,16 +5209,6 @@
 			(type default)
 		)
 		(uuid "c521b7e8-e350-42e1-a691-bcad58e7cd38")
-	)
-	(wire
-		(pts
-			(xy 57.15 45.72) (xy 57.15 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c66a8265-dd69-4472-9788-a916407dba40")
 	)
 	(wire
 		(pts
@@ -5435,16 +5279,6 @@
 			(type default)
 		)
 		(uuid "d427d84e-948e-4fe0-8993-82753e620090")
-	)
-	(wire
-		(pts
-			(xy 20.32 33.02) (xy 33.02 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d518bf42-19ab-47ef-bc7b-1e25ab5cc83c")
 	)
 	(wire
 		(pts
@@ -5585,16 +5419,6 @@
 			(type default)
 		)
 		(uuid "efd12df3-be36-41f6-b533-9be3b6ff2b87")
-	)
-	(wire
-		(pts
-			(xy 20.32 54.61) (xy 33.02 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f275b341-376f-47bb-9dad-9ccd5767d59a")
 	)
 	(wire
 		(pts
@@ -6330,7 +6154,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 238.76 88.9 0)
+		(at 238.76 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6339,7 +6163,7 @@
 		(fields_autoplaced yes)
 		(uuid "13e5004d-14f9-4a6a-ac55-de239c9c18f2")
 		(property "Reference" "#PWR039"
-			(at 238.76 92.71 0)
+			(at 238.76 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6348,7 +6172,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 238.76 83.82 0)
+			(at 238.76 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6356,7 +6180,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 88.9 0)
+			(at 238.76 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6365,7 +6189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 88.9 0)
+			(at 238.76 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6374,7 +6198,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 238.76 88.9 0)
+			(at 238.76 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6402,127 +6226,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 57.15 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19920221-3549-4712-a966-07b323496791")
-		(property "Reference" "C10"
-			(at 60.96 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 60.96 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 58.1152 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://spicat.kyocera-avx.com/product/Mlcc/chartview/0805ZC104JAT2A/dist/mouser"
-			(at 57.15 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT KGM21NR71A104JT NEW GLOBAL PN 10V 0.1uF A 581-KGM21NR71A104JT"
-			(at 57.15 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KYOCERA AVX"
-			(at 57.15 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_part_number" "0805ZC104JAT2A"
-			(at 57.15 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/KYOCERA-AVX/0805ZC104JAT2A?qs=Q5Oar%2FnnWZYq8DFSoLsWDw%3D%3D"
-			(at 57.15 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/kyocera-avx/KGM21NR71A104JT/3081414?s=N4IgTCBcDaIAwA44FYBaBhAjHALAKQEEAVMAkAXQF8g"
-			(at 57.15 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2174341"
-			(at 57.15 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35f02da3-f7cd-4788-96bd-d2f055373947")
-		)
-		(pin "2"
-			(uuid "556ca313-023c-4317-b0d5-2f25e838811b")
-		)
-		(instances
-			(project "iot_device_pcb"
-				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-			(project "Microcontroller-ESP32-S3-WROOM-1"
-				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 177.8 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6531,7 +6234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c3b87d7-8edb-4857-8088-9a0bbd280885")
-		(property "Reference" "C13"
+		(property "Reference" "C10"
 			(at 181.61 48.2599 0)
 			(effects
 				(font
@@ -6630,7 +6333,7 @@
 		(instances
 			(project "iot_device_pcb"
 				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5"
-					(reference "C13")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -7159,7 +6862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49cb171b-5d77-4040-a6a3-81a2a06a1346")
-		(property "Reference" "C14"
+		(property "Reference" "C11"
 			(at 245.11 48.2599 0)
 			(effects
 				(font
@@ -7258,7 +6961,7 @@
 		(instances
 			(project "iot_device_pcb"
 				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5"
-					(reference "C14")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -9263,7 +8966,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c82a0a61-4d7f-41d2-85b7-b17909936f6b")
-		(property "Reference" "C12"
+		(property "Reference" "C9"
 			(at 64.77 108.585 90)
 			(effects
 				(font
@@ -9360,7 +9063,7 @@
 		(instances
 			(project "iot_device_pcb"
 				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5"
-					(reference "C12")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -9714,7 +9417,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e31d5455-eb25-48cd-9209-e14eba10f3f9")
-		(property "Reference" "C11"
+		(property "Reference" "C8"
 			(at 57.658 117.094 90)
 			(effects
 				(font
@@ -9811,7 +9514,7 @@
 		(instances
 			(project "iot_device_pcb"
 				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5"
-					(reference "C11")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -10159,248 +9862,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 45.72 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3ddf061-1eb4-4cb7-a885-333b37928b76")
-		(property "Reference" "C9"
-			(at 49.53 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 49.53 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 46.6852 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://spicat.kyocera-avx.com/product/Mlcc/chartview/0805ZC104JAT2A/dist/mouser"
-			(at 45.72 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT KGM21NR71A104JT NEW GLOBAL PN 10V 0.1uF A 581-KGM21NR71A104JT"
-			(at 45.72 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KYOCERA AVX"
-			(at 45.72 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_part_number" "0805ZC104JAT2A"
-			(at 45.72 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/KYOCERA-AVX/0805ZC104JAT2A?qs=Q5Oar%2FnnWZYq8DFSoLsWDw%3D%3D"
-			(at 45.72 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/kyocera-avx/KGM21NR71A104JT/3081414?s=N4IgTCBcDaIAwA44FYBaBhAjHALAKQEEAVMAkAXQF8g"
-			(at 45.72 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2174341"
-			(at 45.72 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f818ad5a-1819-41db-8251-c447ef94c838")
-		)
-		(pin "2"
-			(uuid "a223ec15-fdad-4559-8bc1-88abb8542f9f")
-		)
-		(instances
-			(project "iot_device_pcb"
-				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5"
-					(reference "C9")
-					(unit 1)
-				)
-			)
-			(project "Microcontroller-ESP32-S3-WROOM-1"
-				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 33.02 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3e6c803-a63d-418b-91f1-16e56f83b084")
-		(property "Reference" "C7"
-			(at 36.83 40.6399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 36.83 43.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 33.9852 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://spicat.kyocera-avx.com/product/Mlcc/chartview/0805ZC104JAT2A/dist/mouser"
-			(at 33.02 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT KGM21NR71A104JT NEW GLOBAL PN 10V 0.1uF A 581-KGM21NR71A104JT"
-			(at 33.02 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "KYOCERA AVX"
-			(at 33.02 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_part_number" "0805ZC104JAT2A"
-			(at 33.02 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_link_1" "https://eu.mouser.com/ProductDetail/KYOCERA-AVX/0805ZC104JAT2A?qs=Q5Oar%2FnnWZYq8DFSoLsWDw%3D%3D"
-			(at 33.02 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor_link_2" "https://www.digikey.com/en/products/detail/kyocera-avx/KGM21NR71A104JT/3081414?s=N4IgTCBcDaIAwA44FYBaBhAjHALAKQEEAVMAkAXQF8g"
-			(at 33.02 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2174341"
-			(at 33.02 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7fe99b6-ce1d-4855-8d8f-f407cbe6b22d")
-		)
-		(pin "2"
-			(uuid "5adba5ee-be22-423e-b3ca-71787d42601b")
-		)
-		(instances
-			(project "iot_device_pcb"
-				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-			(project "Microcontroller-ESP32-S3-WROOM-1"
-				(path "/4552055e-c76c-4077-843e-45e8f60d4234"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "USLPT2819DT2TR:USLPT2819DT2TR")
 		(at 194.31 35.56 0)
 		(unit 1)
@@ -10536,7 +9997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8656a01-9506-4bf4-8486-f5d167b244d2")
-		(property "Reference" "C8"
+		(property "Reference" "C7"
 			(at 37.465 148.5899 0)
 			(effects
 				(font
@@ -10635,7 +10096,7 @@
 		(instances
 			(project "iot_device_pcb"
 				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5"
-					(reference "C8")
+					(reference "C7")
 					(unit 1)
 				)
 			)
