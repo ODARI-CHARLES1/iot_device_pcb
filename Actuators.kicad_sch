@@ -2713,7 +2713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b089551b-e892-4058-b4d0-f13b61fc98e1")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR058"
 			(at 71.12 124.46 0)
 			(effects
 				(font
@@ -2763,7 +2763,7 @@
 		(instances
 			(project ""
 				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/951efe5f-007f-4eb5-93e1-4bc9627e12c9"
-					(reference "#PWR057")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -2895,7 +2895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9881450-8234-4b47-9013-acf9f911028b")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR057"
 			(at 71.12 63.5 0)
 			(effects
 				(font
@@ -2945,7 +2945,7 @@
 		(instances
 			(project ""
 				(path "/20a6db8f-6f9d-426b-a90e-3cd30ac36ee8/d76e5a61-e019-4441-8e0f-87cbb4ce42a5/951efe5f-007f-4eb5-93e1-4bc9627e12c9"
-					(reference "#PWR056")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
