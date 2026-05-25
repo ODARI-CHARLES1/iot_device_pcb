@@ -1119,36 +1119,6 @@
 		)
 		(uuid "4af7dfc8-8b3a-4f11-820c-08b88fce22d9")
 	)
-	(label "GPIO"
-		(at 198.12 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "52fe0524-3747-4716-8122-84bc07cec6ee")
-	)
-	(label "GPIO"
-		(at 198.12 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5bb2d58b-8a47-44e4-8991-f610ac4d8460")
-	)
-	(label "GPIO"
-		(at 198.12 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b45dd410-e5de-4a9d-b981-2ef98c8a725a")
-	)
 	(label "SCL"
 		(at 71.12 137.16 0)
 		(effects
@@ -1160,26 +1130,6 @@
 			(justify left bottom)
 		)
 		(uuid "b8f4f808-2246-44a1-9da8-a7ce14909b20")
-	)
-	(label "GPIO"
-		(at 198.12 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bd3e0dad-2859-4c90-8f60-d7d989de93f6")
-	)
-	(label "GPIO"
-		(at 198.12 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d25d5b70-9029-407b-9580-f373e3353964")
 	)
 	(label "SDA"
 		(at 68.58 90.17 0)
@@ -1204,26 +1154,6 @@
 			(justify left bottom)
 		)
 		(uuid "e0f560d3-cb33-4c60-bb1c-303f6bba373f")
-	)
-	(label "GPIO"
-		(at 198.12 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e3f12c42-cf4e-49c6-9028-06621aaa0e86")
-	)
-	(label "GPIO"
-		(at 198.12 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e78bc0fa-b998-4b3e-bc59-2b3a652d82c1")
 	)
 	(hierarchical_label "GPIO7"
 		(shape input)
